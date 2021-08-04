@@ -6,24 +6,108 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BIMBEL CPNS</title>
-  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.9.55/css/materialdesignicons.min.css"
+    integrity="sha512-vIgFb4o1CL8iMGoIF7cYiEVFrel13k/BkTGvs0hGfVnlbV6XjAA0M0oEHdWqGdAVRTDID3vIZPOHmKdrMAUChA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="scss/style.css">
 </head>
 
 <body>
   <header>
-    <nav class="navbar navbar-dark bg-primary">
-      <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand text-tersier" href="#">Tryout CAT CPNS</a>
+        <h4 class="m-0 text-end text-tersier" id="timer"><strong>00:00</strong></h4>
+      </div>
     </nav>
   </header>
-  <div class="container">
+  <div class="container-fluid">
 
-    <section class="main">
+    <section class="main p-2">
       <div class="row">
-        <div class="col">
-          <button class="btn btn-primary mt-2">Pencet</button>
+        <div class="col-md-8 col-lg-9">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="m-0"><strong>Soal Nomor : <span id="nomorSoal">1</span></strong></h5>
+              <hr class="my-2">
+              <section class="row no-gutters">
+                <div class="col-12 soal my-2">
+                  <p style="font-size: 115%; text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Non
+                    nostrum
+                    magnam eius animi ducimus
+                    blanditiis. Assumenda nostrum aspernatur ullam nesciunt, accusamus sed possimus similique aliquid
+                    itaque sapiente ad veritatis blanditiis ducimus, molestiae dolorem, ipsam adipisci vel consequatur
+                    voluptates corrupti deserunt maiores maxime. Quis, aperiam. Ratione, fugit? Minima aperiam ad esse.
+                  </p>
+                  <ul class="px-0 py-2 border-top" style="list-style: none;">
+                    <li class="my-2">
+                      <input type="radio" class="btn-check" name="jawaban" id="A1" autocomplete="off">
+                      <label class="btn btn-outline-primary" for="A1">A. Pilihan A</label>
+                    </li>
+                    <li class="my-2">
+                      <input type="radio" class="btn-check" name="jawaban" id="B1" autocomplete="off">
+                      <label class="btn btn-outline-primary" for="B1">B. Pilihan B</label>
+                    </li>
+                    <li class="my-2">
+                      <input type="radio" class="btn-check" name="jawaban" id="C1" autocomplete="off">
+                      <label class="btn btn-outline-primary" for="C1">C. Pilihan C</label>
+                    </li>
+                    <li class="my-2">
+                      <input type="radio" class="btn-check" name="jawaban" id="D1" autocomplete="off">
+                      <label class="btn btn-outline-primary" for="D1">D. Pilihan D</label>
+                    </li>
+                    <li class="my-2">
+                      <input type="radio" class="btn-check" name="jawaban" id="E1" autocomplete="off">
+                      <label class="btn btn-outline-primary" for="E1">E. Pilihan E</label>
+                    </li>
+                  </ul>
+                </div>
 
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <div class="row no-gutters">
+                <div class="col-12">
+                  <h5 class="text-center"><strong>Nomor Soal</strong></h5>
+                  <hr class="my-2">
+                  <div class="nomor-soal-container d-flex flex-wrap">
+                    <button class="px-1 btn btn-outline-primary nomor-soal" data-nomor="1">1</button>
+                    <button class="px-1 btn btn-outline-primary nomor-soal" data-nomor="2">2</button>
+                    <button class="px-1 btn btn-outline-primary nomor-soal" data-nomor="3">3</button>
+                    <button class="px-1 btn btn-outline-primary nomor-soal" data-nomor="4">4</button>
+                    <button class="px-1 btn btn-outline-primary nomor-soal" data-nomor="5">5</button>
+                    <button class="px-1 btn btn-outline-primary nomor-soal" data-nomor="6">6</button>
+                    <button class="px-1 btn btn-outline-primary nomor-soal" data-nomor="7">7</button>
+                    <button class="px-1 btn btn-outline-primary nomor-soal" data-nomor="8">8</button>
+                    <button class="px-1 btn btn-outline-primary nomor-soal" data-nomor="9">9</button>
+                    <button class="px-1 btn btn-outline-primary nomor-soal" data-nomor="10">10</button>
+                    <button class="px-1 btn btn-outline-primary nomor-soal" data-nomor="96">96</button>
+                    <button class="px-1 btn btn-outline-primary nomor-soal" data-nomor="97">97</button>
+                    <button class="px-1 btn btn-outline-primary nomor-soal" data-nomor="98">98</button>
+                    <button class="px-1 btn btn-outline-primary nomor-soal" data-nomor="99">99</button>
+                    <button class="px-1 btn btn-outline-primary nomor-soal" data-nomor="100">100</button>
+                    <button class="px-1 btn btn-outline-primary nomor-soal" data-nomor="106">106</button>
+                    <button class="px-1 btn btn-outline-primary nomor-soal" data-nomor="107">107</button>
+                    <button class="px-1 btn btn-outline-primary nomor-soal" data-nomor="108">108</button>
+                    <button class="px-1 btn btn-outline-primary nomor-soal" data-nomor="109">109</button>
+                    <button class="px-1 btn btn-outline-primary nomor-soal" data-nomor="110">110</button>
+                  </div>
+                  <hr class="my-2">
+                  <div class="navigasi-soal-container d-flex flex-wrap">
+                    <button class="btn btn-secondary navigasi" id="btn-kembali">
+                      < Previous</button>
+                        <button class="btn btn-secondary navigasi" id="btn-lanjut">Next ></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
