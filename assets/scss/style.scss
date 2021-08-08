@@ -13,7 +13,7 @@ $theme-colors : map-merge($theme-colors, $custom-colors);
 
 $body-bg : #f3f9f3;
 
-@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap');
 
 body {
@@ -22,6 +22,21 @@ body {
 
 .card {
   border-radius: 1rem;
+}
+
+.soal {
+  div.col-12 {
+    p {
+      text-align: justify;
+      font-size: 115%;
+    }
+    img {
+      width: 100%;
+    }
+    ul {
+      list-style: none;
+    }
+  }
 }
 
 .nomor-soal-container {

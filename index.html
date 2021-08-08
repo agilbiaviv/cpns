@@ -10,15 +10,15 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.9.55/css/materialdesignicons.min.css"
     integrity="sha512-vIgFb4o1CL8iMGoIF7cYiEVFrel13k/BkTGvs0hGfVnlbV6XjAA0M0oEHdWqGdAVRTDID3vIZPOHmKdrMAUChA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="scss/style.css">
+  <link rel="stylesheet" href="assets/scss/style.min.css">
 </head>
 
 <body>
   <header>
     <nav class="navbar bg-primary">
-      <div class="container-fluid">
-        <a class="navbar-brand text-tersier" href="#">Tryout CAT CPNS</a>
-        <h4 class="m-0 text-end text-tersier" id="timer"><strong>00:00</strong></h4>
+      <div class="container-fluid px-4">
+        <a class="navbar-brand text-tersier" href="#"><strong>Tryout CAT CPNS</strong></a>
+        <h4 class="m-0 text-end text-tersier" id="timer">00:00</h4>
       </div>
     </nav>
   </header>
@@ -34,9 +34,9 @@
                 <button class="btn btn-danger ml-auto">Tandai Soal</button>
               </div>
               <hr class="my-2 clear">
-              <section class="row no-gutters">
-                <div class="col-12 soal my-2">
-                  <p style="font-size: 115%; text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing
+              <section class="row soal no-gutters">
+                <div class="col-12 my-2">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing
                     elit. Non
                     nostrum
                     magnam eius animi ducimus
@@ -46,7 +46,7 @@
                   </p>
                   <img src="https://www.selasar.com/wp-content/uploads/2020/04/Gambar-Pemandangan.jpg"
                     style="width: 100%" />
-                  <ul class="px-0 py-2 border-top" style="list-style: none;">
+                  <ul class="px-0 py-2 border-top">
                     <li class="my-2">
                       <input type="radio" class="btn-check" name="jawaban" id="A1" autocomplete="off">
                       <label class="btn btn-outline-primary" for="A1">A. Pilihan A</label>
@@ -69,6 +69,7 @@
                     </li>
                   </ul>
                 </div>
+
 
               </section>
             </div>
@@ -121,12 +122,10 @@
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="assets/js/tryout.js"></script>
+
 </body>
 
 </html>

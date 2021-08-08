@@ -1,0 +1,29 @@
+[
+  {
+    "materi" : "twk",
+    "tipe" : "teks",
+    "soal" : "Penulisan akronim dan singkatan yang tidak tepat adalah ....",
+    "opsi" : [
+              "Pelajaran yang paling disukai Samuel adalah sosbud.",
+              "Tadi malam aku membeli baju di Toserba bersama kakakku.",
+              "Paman Hartono bekerja di Depdiknas.",
+              "Anita memilih untuk melanjutkan kuliah di luar kota setelah ia lulus SMA.",
+              "Suratno akan diangkat menjadi PNS tahun ini."
+            ],
+    "kunci" : "Tadi malam aku membeli baju di Toserba bersama kakakku."
+  },
+  {
+    "materi" : "twk",
+    "tipe" : "teks",
+    "soal" : "Penulisan akronim dan singkatan yang tidak tepat adalah ....",
+    "opsi" : [
+              "Pelajaran yang paling disukai Samuel adalah sosbud.",
+              "Tadi malam aku membeli baju di Toserba bersama kakakku.",
+              "Paman Hartono bekerja di Depdiknas.",
+              "Anita memilih untuk melanjutkan kuliah di luar kota setelah ia lulus SMA.",
+              "Suratno akan diangkat menjadi PNS tahun ini."
+            ],
+    "kunci" : "Tadi malam aku membeli baju di Toserba bersama kakakku."
+  }
+
+]
