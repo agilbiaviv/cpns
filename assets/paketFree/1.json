@@ -1,29 +1,561 @@
 [
   {
-    "materi" : "twk",
-    "tipe" : "teks",
-    "soal" : "Penulisan akronim dan singkatan yang tidak tepat adalah ....",
-    "opsi" : [
-              "Pelajaran yang paling disukai Samuel adalah sosbud.",
-              "Tadi malam aku membeli baju di Toserba bersama kakakku.",
-              "Paman Hartono bekerja di Depdiknas.",
-              "Anita memilih untuk melanjutkan kuliah di luar kota setelah ia lulus SMA.",
-              "Suratno akan diangkat menjadi PNS tahun ini."
-            ],
-    "kunci" : "Tadi malam aku membeli baju di Toserba bersama kakakku."
+    "materi": "twk",
+    "tipe": "teks",
+    "soal": "Penulisan akronim dan singkatan yang tidak tepat adalah ....",
+    "opsi": [
+      "Pelajaran yang paling disukai Samuel adalah sosbud.",
+      "Tadi malam aku membeli baju di Toserba bersama kakakku.",
+      "Paman Hartono bekerja di Depdiknas.",
+      "Anita memilih untuk melanjutkan kuliah di luar kota setelah ia lulus SMA.",
+      "Suratno akan diangkat menjadi PNS tahun ini."
+    ],
+    "kunci": "Tadi malam aku membeli baju di Toserba bersama kakakku."
   },
   {
-    "materi" : "twk",
-    "tipe" : "teks",
-    "soal" : "Penulisan akronim dan singkatan yang tidak tepat adalah ....",
-    "opsi" : [
-              "Pelajaran yang paling disukai Samuel adalah sosbud.",
-              "Tadi malam aku membeli baju di Toserba bersama kakakku.",
-              "Paman Hartono bekerja di Depdiknas.",
-              "Anita memilih untuk melanjutkan kuliah di luar kota setelah ia lulus SMA.",
-              "Suratno akan diangkat menjadi PNS tahun ini."
-            ],
-    "kunci" : "Tadi malam aku membeli baju di Toserba bersama kakakku."
+    "materi": "twk",
+    "tipe": "teks",
+    "soal": "Perhatikan paragraf berikut!\n\n Pantai Parangtritis memang memiki keindahan eksotis yang membuat wisatawan ramai berkunjung, tetapi juga sering menelan korban. Yang disayangkan, sebagian masyarakat Indonesia masih saja menganggap peristiwa tersebut berkaitan dengan hal-hal mistis, yakni dikarenakan Ratu Pantai Selatan meminta tumbal. Padahal, ada penjelasan ilmiah di balik musibah tersebut. Para praktisi ilmu kebumian menegaskan bahwa penyebab utama hilangnya sejumlah wisatawan di Pantai Parangtritis, Bantul, adalah akibat terseret rip current. Dengan kecepatan mencapai 80 kilometer per jam, arus balik tidak hanya kuat, tetapi juga mematikan. Jadi, banyaknya korban tenggelam tidak ada kaitannya sama sekali dengan anggapan para masyarakat. Ali Susanto, Komandan SAR Pantai Parangtritis, juga menambahkan bahwa di sepanjang Pantai Parangtritis juga banyak terdapat palung (pusaran air) yang tempatnya selalu berpindah-pindah dan sulit diprediksi. Kondisi inilah yang sering banyak menimbulkan korban mati tenggelam.\n\nParagraf di atas termasuk dalam jenis karangan ….",
+    "opsi": [
+      "Deskripsi",
+      "Narasi",
+      "Argumentasi",
+      "Eksposisi",
+      "Persuasi"
+    ],
+    "kunci": "Argumentasi"
+  },
+  {
+    "materi": "twk",
+    "tipe": "teks",
+    "soal": "Bacalah wacana berikut dengan saksama!\n\n Penyandang disabilitas mendapatkan perhatian khusus agar mereka dapat menjalani hidup selayaknya manusia pada umunya. Salah satu penyandang disbailitas adalah tunanetra. Untuk menunjang pengetahuan dan kemampuan membaca, secara khusus disediakan buku pelajaran yang dialihkan dalam huruf Braille yang dapat diakses oleh para penyandang tunanetra. Namun ketersediaan jumlahnya masih sangat minim. Adapun ketersediaan buku-buku bacaan dalam huruf braille di pasaran masih berkisar ribuan judul. Tantangan menerjemahkan buku pelajaran dengan huruf Braille terdapat pada simbol-simbol khusus seperti pada pelajaran matematika, fisika, dan kimia.\n\nMakna yang terkandung dalam wacana di atas adalah ....",
+    "opsi": [
+      "Setiap orang berhak mendapatkan pendidikan",
+      "Setiap orang berhak mendapatkan informasi dan pengetahuan",
+      "Pemerintah harus lebih memperhatikan kebutuhan para penyandang tunanetra",
+      "Penyandang tunanetra sudah bisa mengakses buku pelajaran dalam huruf Braille",
+      "Menerjemahkan simbol-simbol fisika dalam huruf Braille memerlukan waktu lama"
+    ],
+    "kunci": "Setiap orang berhak mendapatkan informasi dan pengetahuan"
+  },
+  {
+    "materi": "twk",
+    "tipe": "teks",
+    "soal": "Perhatikan kalimat di bawah ini!\n\nTembak-menembak antara pasukan pemberontak dan aparat keamanan terjadi pada waktu dini hari.\n\nMakna perulangan pada kalimat di atas sama dengan makna perulangan pada kalimat ....",
+    "opsi": [
+      "Gadis itu melambai-lambaikan tanganya ke arahku.",
+      "Para siswa menari-nari keriangan setelah mengetahui dirinya lulus ujian.",
+      "Kedua remaja itu hanya dapat berpandang-pandangan tanpa berkata-kata.",
+      "Tampaknya, anak itu memata-matai kami sejak tadi.",
+      "Kedua remaja yang baru bertemu itu berlari-larian di pantai."
+    ],
+    "kunci": "Kedua remaja itu hanya dapat berpandang-pandangan tanpa berkata-kata."
+  },
+  {
+    "materi": "twk",
+    "tipe": "teks",
+    "soal": "Cermati paragraf berikut!\n\n Jasa-jasa ekologi yang terdapat di Kawasan Ekosistem Leuser mencakup penyediaan air bersih, pengendalian erosi ... banjir, pengaturan iklim lokal, penyerapan karbon, perikanan air tawar, ... keindahan alam mendukung industri pariwisata. Jasa-jasa ini hanya dapat tersedia ... Kawasan Ekosistem Leuser dijaga dan dipelihara fungsinya sebagai suatu kesatuan interaksi yang utuh.\n\nKata penghubung yang tepat untuk melengkapi bagian yang rumpang dalam paragraf tersebut adalah ....",
+    "opsi": [
+      "Karena, misalnya, apabila",
+      "Dan, serta, jika",
+      "Serta, yakni, dan",
+      "Yaitu, bahkan, bahwa",
+      "Atau, tetapi, sebab"
+    ],
+    "kunci": "Dan, serta, jika"
+  },
+  {
+    "materi": "twk",
+    "tipe": "teks",
+    "soal": "Setiap rancangan undang-undang dibahas oleh Dewan Perwakilan Rakyat dan Presiden untuk mendapat persetujuan bersama. Jika rancangan undang-undang itu tidak mendapat persetujuan bersama, maka rancangan undang-undang tersebut ....",
+    "opsi": [
+      "Boleh diajukan lagi dalam persidangan Dewan Perwakilan Rakyat masa itu",
+      "Tidak boleh diajukan lagi dalam persidangan Dewan Perwakilan Rakyat masa itu",
+      "Rancangan undang-undang tersebut tidak sah menjadi undang-undang",
+      "Rancangan undang-undang tidak wajib diundangkan",
+      "Rancangan undang-undang tersebut tidak sah menjadi undang-undang dan rancangan undang-undang tidak wajib diundangkan"
+    ],
+    "kunci": "Tidak boleh diajukan lagi dalam persidangan Dewan Perwakilan Rakyat masa itu"
+  },
+  {
+    "materi": "twk",
+    "tipe": "teks",
+    "soal": "Sebagaimana kita ketahui Undang-Undang Dasar 1945 itu telah ditetapkan oleh ….",
+    "opsi": [
+      "Panitia Persiapan Kemerdekaan Indonesia (PPKI) dan mulai berlaku pada tanggal 17 Agustus 1945",
+      "Badan Penyelidik Usaha-usaha Persiapan Kemerdekaan Indonesia (BPUPKI) dan mulai berlaku pada tanggal 17 Agustus 1945",
+      "Panitia Persiapan Kemerdekaan Indonesia (PPKI) dan mulai berlaku pada tanggal 18 Agustus 1945",
+      "Panitia Persiapan Kemerdekaan Indonesia (PPKI) dan mulai berlaku pada tanggal 19 Agustus 1945",
+      "Badan Penyelidik Usaha-usaha Persiapan Kemerdekaan Indonesia (BPUPKI) dan mulai berlaku pada tanggal 18 Agustus 1945"
+    ],
+    "kunci": "Panitia Persiapan Kemerdekaan Indonesia (PPKI) dan mulai berlaku pada tanggal 18 Agustus 1945"
+  },
+  {
+    "materi": "twk",
+    "tipe": "teks",
+    "soal": "Menanamkan dan mencontohkan perbuatan-perbuatan kecil yang sesuai dengan semangat nasionalisme dan patriotisme sejak dini kepada peserta didik sebagai seorang guru yang setiap harinya berinteraksi dengan murid di sekolah sehingga mereka memaknai semboyan negara yang sudah dicetuskan oleh para pendiri bangsa, merupakan bentuk implementasi Pancasila sila ... ",
+    "opsi": [
+      "Ketuhanan Yang Maha Esa",
+      "Kemanusiaan yang adil dan beradab",
+      "Persatuan Indonesia",
+      "Kerakyatan yang dipimpin oleh hikmah kebijaksanaan dalam permusyawaratan dan perwakilan",
+      "Keadilan sosial bagi seluruh rakyat Indonesia"
+    ],
+    "kunci": "Persatuan Indonesia"
+  },
+  {
+    "materi": "twk",
+    "tipe": "teks",
+    "soal": "Kebhinnekaan merupakan realitas bangsa yang tidak dapat dipungkiri keberadaannya untuk mendorong terciptanya perdamaian dalam kehidupan bangsa dan negara. Kebhinekaan harus dimaknai masyarakat melalui pemahaman multikulturalisme dengan landasan kekuatan spiritualitas. Perbedaan etnis, religi, dan ideologi menjadi bagian tidak terpisahkan dari sejarah bangsa Indonesia dengan Bhinneka Tunggal Ika. Oleh karena itu, dalam penetapan peraturan perundang-undangan, tidak boleh ada materi yang mendiskriminasi kelompok masyarakat tertentu karena ….",
+    "opsi": [
+      "Menjadi tanggung jawab presiden",
+      "Dapat memberikan peluang untuk terjadinya perpecahan",
+      "Bhinneka Tunggal Ika sebagai lambang negara kita",
+      "Menciptakan masyarakat tanpa kelas-kelas sosial",
+      "Masyarakat multikulturalisme tidak ada perbedaan"
+    ],
+    "kunci": "Dapat memberikan peluang untuk terjadinya perpecahan"
+  },
+  {
+    "materi": "twk",
+    "tipe": "teks",
+    "soal": "Dengan adanya globalisasi, maka dunia terasa lebih kecil jika dibandingkan dengan keadaan yang sebenarnya. Dahulu sejauh mata memandang, dunia dibatasi oleh batasan-batsan yang membatasi wilayah antar negara yang mendiaminya, akan tetapi sekarang hal tersebut sudah tidak berlaku lagi. Bahkan di zaman sekarng ini kita sudah dapat merasakan apa itu globalisasi, di mana perkembangan teknologi informasi yang semakin meningkat menjadi media utama bagi proses globalisasi tersebut. Sebagai dampak positif adanya globalisasi dengan perkembangan ekonomi di Indonesia, ditandai dengan ....",
+    "opsi": [
+      "Semakin berkurangnya impor teknologi dari luar",
+      "Semakin mudahnya arus produksi dan distribusi barang",
+      "Adanya pembatasan untuk melebarkan usaha",
+      "Biaya ekspor barang menjadi tidak murah",
+      "Biaya impor barang melonjak tinggi"
+    ],
+    "kunci": "Semakin mudahnya arus produksi dan distribusi barang"
+  },
+  {
+    "materi": "twk",
+    "tipe": "teks",
+    "soal": "Indonesia memiliki hubungan bilateral dengan negara Inggris dalam bidang pendidikan dan ekonomi. Dalam bidang pedidikan yaitu pertukaran pelajar. Sedangkan dalam bidang ekonomi yaitu ekspor impor. Kerjasama antara Indonesia dengan Inggris merupakan contoh penerapan Pancasila sila ....",
+    "opsi": [
+      "Pertama",
+      "Kedua",
+      "Ketiga",
+      "Keempat",
+      "Kelima"
+    ],
+    "kunci": "Kedua"
+  },
+  {
+    "materi": "twk",
+    "tipe": "teks",
+    "soal": "Dampak tindakan korupsi yang dilakukan oleh oknum tertentu terhadap demokrasi antara lain ditunjukkan oleh pilihan jawaban ....",
+    "opsi": [
+      "Mempersulit terwujudnya pemerintahan yang baik, merusak proses formal dalam birokrasi pemerintahan, dan mengurangi kredibilitas dan akuntabilitas aparatur negara",
+      "Menyebabkan kekecewaan masyarakat, memicu tingginya angka kriminalitas dan meningkatkan angka kemiskinan",
+      "Meningkatkan sikap apatis rakyat, lunturnya rasa hormat masyarakat terhadap pemerintah, dan menimbulkana demoralisasi dalam masyarakat",
+      "Pengalihan sumber daya milik publik untuk kepentingan pribadi atau kelompok, merusak proses formal dalam birokrasi pemerintahan, mengurangi kredibilitas dan akuntabilitas aparatur negara",
+      "Semakin mahalnya harga jasa berbagai pelayanan publik, rendahnya kualitas pelayanan publik bagi masyarakat, dan pengalihan sumber daya milik pribadi untuk kepentingan pribadi atau kelompok"
+    ],
+    "kunci": "Mempersulit terwujudnya pemerintahan yang baik, merusak proses formal dalam birokrasi pemerintahan, dan mengurangi kredibilitas dan akuntabilitas aparatur negara"
+  },
+  {
+    "materi": "twk",
+    "tipe": "teks",
+    "soal": " Perwujudan Kepulauan Nusantara sebagai satu kesatuan politik antara lain memiliki makna bahwa ....",
+    "opsi": [
+      "Kekuatan ekonomi yang mampu bersaing dalam pasar internasional",
+      "Seluruh kekayaan nusantara menjadi modal dan milik bersama bangsa Indonesia",
+      "Masyarakat Indonesia adalah satu perikehidupan bangsa",
+      "Serangan terhadap satu daerah merupakan ancaman bagi daerah lainnya",
+      "Budaya Indonesia adalah satu dengan corak ragam budaya yang kaya"
+    ],
+    "kunci": "Seluruh kekayaan nusantara menjadi modal dan milik bersama bangsa Indonesia"
+  },
+  {
+    "materi": "twk",
+    "tipe": "teks",
+    "soal": "Hubungan atau kaitan antar dasar negara dengan konstitusi adalah ….",
+    "opsi": [
+      "Dasar negara adalah pedoman penyelenggaraan pemerintahan yang dijabarkan lebih lanjut dalam konstitusi",
+      "Nilai-nilai yang ada dalam konstitusi lebih lanjut dioperasionalkan dalam dasar negara",
+      "Konstitusi adalah bagian dari dasar negara",
+      "Dasar negara tidak bisa dirubah sedangkan konstitusi boleh dirubah",
+      "Dasar negara berisi prinsip-prinsip hidup bernegara yang dijabarkan melalui konstitusi ke dalam berbagai aturan hukum"
+    ],
+    "kunci": "Dasar negara berisi prinsip-prinsip hidup bernegara yang dijabarkan melalui konstitusi ke dalam berbagai aturan hukum"
+  },
+  {
+    "materi": "twk",
+    "tipe": "teks",
+    "soal": "Salah satu aspek penting dalam bela negara adalah menjaga pertahanan dan keamanan. Menjaga pertahanan dan keamanan negara Indoensia sehingga kondisi negara tetap aman dan damai merupakan tugas semua anggota TNI, Polri, dan rakyat Indonesia. Pernyataan tersebut mengandung kesesuaian dengan pasal dalam UUD NRI Tahun 1945 yaitu ....",
+    "opsi": [
+      "Pasal 29 ayat 1",
+      "Pasal 29 ayat 2",
+      "Pasal 30 ayat 2",
+      "Pasal 30 ayat 3",
+      "Pasal 30 ayat 4"
+    ],
+    "kunci": "Pasal 30 ayat 2"
+  },
+  {
+    "materi": "twk",
+    "tipe": "teks",
+    "soal": "Nilai-nilai yang dijunjung tinggi oleh bangsa Indonesia dapat mengakomodasi dinamika masyarakat dan menjadi landasan perjuangan bangsa Indonesia terkandung dalam Pembukaan UUD NKRI Tahun 1945. Pembukaan UUD sebagai konstitusi tertinggi tersebut bersifat tetap dan tidak dapat diubah karena ....",
+    "opsi": [
+      "Bentuk penghormatan terhadap perjuangan para pahlawan",
+      "Ditetapkan golongan tua pimpinan Soekarno",
+      "Ditetapkan oleh MPR selaku lembaga tertinggi negara",
+      "Merupakan kaidah yang fundamental bagi terbentuknya negara Indonesia",
+      "Dibentuk oleh PPKI secara gigih dengan melewati berbagai tantangan dan tekanan pemerintahan Jepang"
+    ],
+    "kunci": "Merupakan kaidah yang fundamental bagi terbentuknya negara Indonesia"
+  },
+  {
+    "materi": "twk",
+    "tipe": "teks",
+    "soal": "Perhatikan pernyataan berikut ini!\n\n(1) PBB membantu perselisihan Indonesia dan Belanda dengan membentuk Komite Jasa Baik Untuk Indonesia dan United Nations Temporary Executive Authority\n(2) Organisasi UNICEF bekerja sama dengan Indonesia dalam meningkatkan kesehatan rakyat Indonesia melalui puskesmas\n(3) Organisasi UNESCO bekerja sama dengan Indonesia dalam bidang kebudayaan melalui pemugaran Candi Borobudur dan Candi Prambanan\n(4) PBB membantu pengendalian program keluarga berencana di Indonesia melalui organisasi WHO\n(5) Organisasi ILO bekerja sama dengan Indonesia dalam bidang pertanian hingga Indonesia mampu\n berswasembada pangan tahun 1984\n(6) PBB membantu menyelesaikan sengketa Irian Barat dengan membentuk United Nations Commission for Indonesia\n\nPernyataan tersebut yang termasuk peran PBB bagi Indonesia ditunjukkan pada nomor ….",
+    "opsi": [
+      "(1) dan (6)",
+      "(2), (3), dan (4)",
+      "(2), (3), dan (5)",
+      "(3) dan (4)",
+      "(1), (2), (3), (4), dan (6)"
+    ],
+    "kunci": "(3) dan (4)"
+  },
+  {
+    "materi": "twk",
+    "tipe": "teks",
+    "soal": "Saat ini pemerintah sedang giat menggalakkan pembangunan, khususnya di bidang infrastruktur. Dengan demikian pembangunan dapat dinikmati secara merata di seluruh wilayah Indonesia. Hal tersebut merupakan penjabaran dari nilai-nilai keadilan sosial bagi seluruh rakyat Indonesia, yaitu ….",
+    "opsi": [
+      "Tidak adanya tirani mayoritas dan minoritas",
+      "Cita-cita masyarakat adil dan makmur yang merata bagi seluruh rakyat Indonesia",
+      "Harkat, derajat, dan martabat manusia dijunjung tinggi",
+      "Adanya penghargaan hak dan kewajiban setiap rakyat Indonesia",
+      "Adanya keseimbangan antara hak dan kewajiban serta adanya penghormatan atas orang lain"
+    ],
+    "kunci": "Cita-cita masyarakat adil dan makmur yang merata bagi seluruh rakyat Indonesia"
+  },
+  {
+    "materi": "twk",
+    "tipe": "teks",
+    "soal": "Kerukunan hidup penting dan harus diupayakan, salah satu caranya adalah dengan ….",
+    "opsi": [
+      "Bertukar pikiran dalam membahas ajaran agama tertentu",
+      "Mempelajari cara beribadah agama lain yang terdapat di sekitarnya",
+      "Menghormati sesama yang sedang melaksanakan ibadah agamanya",
+      "Memperhatikan sungguh-sungguh cara beribadah teman beda agama",
+      "Mensyukuri segala anugrah yang telah diberikan oleh Tuhan"
+    ],
+    "kunci": "Menghormati sesama yang sedang melaksanakan ibadah agamanya"
+  },
+  {
+    "materi": "twk",
+    "tipe": "teks",
+    "soal": "Perhatikan pernyataan di bawah ini!\n\n(1) Mengubah dan menetapkan UUD\n(2) Membuat undang-undang bersama presiden\n(3) Memilih anggota BPK dengan memperhatikan pertimbangan DPD\n(4) Mengangkat dan memberhentikan menteri\n(5) Memutus perselisihan hasil pemilu\n(6) Memberikan pertimbangan atas grasi dan rehabilitasi kepada presiden\n\nTugas dan wewenang dari Dewan Perwakilan Rakyat (DPR) ditunjukkan oleh nomor ....",
+    "opsi": [
+      "(1) dan (2)",
+      "(2) dan (3)",
+      "(3) dan (4)",
+      "(4) dan (5)",
+      "(5) dan (6)"
+    ],
+    "kunci": "(2) dan (3)"
+  },
+  {
+    "materi": "twk",
+    "tipe": "teks",
+    "soal": "Pancasila menjadi petunjuk untuk membuat aturan hukum serta pedoman untuk menjalankan kehidupan bernegara. Hal ini karena Pancasila merupakan ….",
+    "opsi": [
+      "Dasar dan ideologi negara",
+      "Kemauan negara",
+      "Keputusan bersama seluruh rakyat",
+      "Pemikiran negara baru",
+      "Perangkat yang digunakan untuk menjalankan roda pemerintahan"
+    ],
+    "kunci": "Dasar dan ideologi negara"
+  },
+  {
+    "materi": "twk",
+    "tipe": "teks",
+    "soal": "Presiden membahas sejumlah investasi saat bertemu dengan para pengusaha Jepang di istana Merdeka Jakarta. Kunjungan ini dilakukan secara reguler untuk membicarakan proyek-proyek yang sedang dan akan dijalankan. Setidaknya ada tiga proyek di sektor perhubungan, di antaranya pembangunan Mass Rapid Transit (MRT) di Jakarta, kereta api cepat Jakarta-Surabaya, dan proyek Pelabuhan Patimban. Berdasarkan ilustrasi diatas, dapat disimpulkan pentingnya kerja sama internasional bagi bangsa Indonesia adalah …",
+    "opsi": [
+      "Untuk menunjang upaya pemeliharaan dan pemulihan perdamaian dan stabilitas nasional",
+      "Untuk menunjang upaya meningkatkan pembangunan ekonomi nasional dalam bidang sarana transportasi dan infrastruktur",
+      "Melakukan hubungan internasional di bidang pemberdayaan pembangunan jalan tol di Indonesia",
+      "Mempererat hubungan kerjasama bilateral dan pertumbuhan penanaman modal dalam pembangunan infrastruktur di Indonesia",
+      "Meningkatkan suplai energi bagi bangsa Indonesia melalui distribusi dan transmisi energi untuk menyediakan energi yang terjangkau bagi rakyat Indonesia"
+    ],
+    "kunci": "Untuk menunjang upaya meningkatkan pembangunan ekonomi nasional dalam bidang sarana transportasi dan infrastruktur"
+  },
+  {
+    "materi": "twk",
+    "tipe": "teks",
+    "soal": "Integritas nasional sangat penting dalam memperkuat persatuan dan kesatuan bangsa. Faktor yang memengaruhi integrasi bisa berasal dari luar negeri seperti adanya pasar bebas. Dampak positif yang ditimbulkan adanya pasar bebas terhadap ketercapaian integrasi nasional, yaitu ....",
+    "opsi": [
+      "Hubungan rakyat dan pemerintah renggang karena menerapkan kebijakan pasar bebas",
+      "Pemerintah harus mengeluarkan dana besar untuk mensubsidi usaha kecil menengah",
+      "Pemerintah dan rakyat saling berkoordinasi menghasilkan produk berkualitas tinggi",
+      "Produk-produk dalam negeri kalah bersaing dengan produk-produk luar negeri",
+      "Banyak barang dari luar negeri beredar di pasar Indonesia "
+    ],
+    "kunci": "Pemerintah dan rakyat saling berkoordinasi menghasilkan produk berkualitas tinggi"
+  },
+  {
+    "materi": "twk",
+    "tipe": "teks",
+    "soal": "Bela negara sangat perlu dilaksanakan dalam kehidupan berbangsa dan bernegara. Salah satu manfaatnya adalah untuk menjaga pertahanan dan keamanan negara dari berbagai ancaman bagi kedaulatan negara. Ancaman bagi negara dapat berasal dari dalam dan luar negeri. Contoh bentuk ancaman dari dalam negeri terhadap pertahanan dan keamanan adalah ....",
+    "opsi": [
+      "Konflik SARA dan illegal fishing",
+      "Aksi teror dan konflik SARA",
+      "Aksi teror dan illegal fishing ",
+      "Aksi teror dan pelanggaran batas wilayah",
+      "Konflik SARA dan pelanggaran batas wilayah"
+    ],
+    "kunci": "Aksi teror dan konflik SARA"
+  },
+  {
+    "materi": "twk",
+    "tipe": "teks",
+    "soal": "Pada masa orde lama terjadi penyimpangan-penyimpangan terhadap pelaksanaan demokrasi di Indonesia berdasarkan Pancasila dan UUD 1945. Di bawah ini salah satu bentuk penyimpangannya adalah ....",
+    "opsi": [
+      "Demokrasi yang dipimpin oleh hikmat kebijaksanaan dalam permusyawaratan/perwakilan",
+      "Kedaulatan ada di tangan rakyat dan dilakukan sepenuhnya oleh MPR",
+      "Presiden dan wakil presiden diangkat dan diberhentikan oleh MPR ",
+      "Presiden dan wakil presiden menduduki masa jabatan hanya selama lima tahun",
+      "Pimpinan lembaga tinggi atau tertinggi negara diangkat menjadi menteri"
+    ],
+    "kunci": "Pimpinan lembaga tinggi atau tertinggi negara diangkat menjadi menteri"
+  },
+  {
+    "materi": "twk",
+    "tipe": "teks",
+    "soal": "Peristiwa penculikan ke Rengasdengklok terjadi karena ....",
+    "opsi": [
+      "Persiapan kemerdekaan Indonesia tidak mungkin dilakukan di Jakarta",
+      "Desakan golongan tua terhadap golongan pemuda diabaikan",
+      "Pihak Jepang berusaha menghalangi kemerdekaan Indonesia",
+      "Terjadi kekosongan kekuasaan",
+      "Golongan tua tidak menerima keinginan pemuda untuk mempercepat kemerdekaan Indonesia"
+    ],
+    "kunci": "Golongan tua tidak menerima keinginan pemuda untuk mempercepat kemerdekaan Indonesia"
+  },
+  {
+    "materi": "twk",
+    "tipe": "teks",
+    "soal": "Salah satu organisasi pada masa pergerakan nasional adalah Sarekat Islam yang sebelumnya bernama Sarekat Dagang Islam yang didirikan di Solo sekitar tahun 1911 dengan pendirinya adalah ….",
+    "opsi": [
+      "H.O.S. Cokroaminoto",
+      "Abdul Muis",
+      "Agus Salim",
+      "H. Samanhudi",
+      "Kartosuwiryo"
+    ],
+    "kunci": "H. Samanhudi"
+  },
+  {
+    "materi": "twk",
+    "tipe": "teks",
+    "soal": "Menurut pasal 7B UUD 1945 hasil amendemen istilah impeachment diberlakukan atas usulan DPR. Adapun lembaga negara yang berhak memeriksa, mengadili, dan memutuskannya adalah ….",
+    "opsi": [
+      "Kepolisian RI",
+      "Mahkamah Konstitusi",
+      "Majelis Permusyawaratan Rakyat",
+      "Komisi Yudisial",
+      "Kejaksaan Agung"
+    ],
+    "kunci": "Mahkamah Konstitusi"
+  },
+  {
+    "materi": "twk",
+    "tipe": "teks",
+    "soal": "Selain Soekarno dan Moh. Hatta, tokoh lain yang ikut dalam menyusun teks Proklamasi adalah ....",
+    "opsi": [
+      "Sayuti Melik",
+      "Soewirjo",
+      "Achmad Soebardjo",
+      "Latif Hendraningrat",
+      "Laksamana Tadashi Maeda"
+    ],
+    "kunci": "Achmad Soebardjo"
+  },
+  {
+    "materi": "twk",
+    "tipe": "teks",
+    "soal": "Pembagian kekuasaan lembaga tinggi negara terbagi menjadi lembaga eksekutif, legislatif, dan yudikatif. Ketiga lembaga tersebut memiliki integritas masing-masing yang dipersatukan dengan ....",
+    "opsi": [
+      "Hukum",
+      "Pancasila",
+      "Karakter",
+      "UUD 1945",
+      "NKRI"
+    ],
+    "kunci": "Pancasila"
+  },
+  {
+    "materi": "tiu",
+    "tipe": "teks",
+    "soal": "Sinonim dari <b>fragmen</b> adalah ….",
+    "opsi": [
+      "Penuh",
+      "Nukilan",
+      "Sisi",
+      "Penggalan",
+      "Rangkaian"
+    ],
+    "kunci": "Penggalan"
+  },
+  {
+    "materi": "tiu",
+    "tipe": "teks",
+    "soal": "Lawan kata dari perintis adalah ….",
+    "opsi": [
+      "Pembawa",
+      "Pioner",
+      "Generasi",
+      "Pendahulu",
+      "Pewaris"
+    ],
+    "kunci": "Pewaris"
+  },
+  {
+    "materi": "tiu",
+    "tipe": "teks",
+    "soal": "MULUT : MONYONG = ….",
+    "opsi": [
+      "Hidung : pesek",
+      "Leher : dagu",
+      "Dahi : muka",
+      "Pipi : merah",
+      "Mata : hitam"
+    ],
+    "kunci": "Hidung : pesek"
+  },
+  {
+    "materi": "tiu",
+    "tipe": "teks",
+    "soal": "INSENTIF : PRESTASI = PENGHORMATAN : ….",
+    "opsi": [
+      "Piagam",
+      "Jasa",
+      "Pensiun",
+      "Hadiah",
+      "Lembur"
+    ],
+    "kunci": "Jasa"
+  },
+  {
+    "materi": "tiu",
+    "tipe": "teks",
+    "soal": "REDUP : … = … : TERIAK",
+    "opsi": [
+      "Cahaya – jauh",
+      "Terang – bisik",
+      "Gelap – terkejut",
+      "Seram – suara",
+      "Lampu - memanggil"
+    ],
+    "kunci": "Terang – bisik"
+  },
+  {
+    "materi": "tiu",
+    "tipe": "teks",
+    "soal": "GANDUM : TEPUNG : KUE = ….",
+    "opsi": [
+      "Nasi : bubur : bayi",
+      "Air : beku : es",
+      "Padi : beras : nasi",
+      "Jeruk : mangga : buah",
+      "Wortel : tomat : sayur"
+    ],
+    "kunci": "Padi : beras : nasi"
+  },
+  {
+    "materi": "tiu",
+    "tipe": "img",
+    "soal": "assets/paketFree/img/1/37.png",
+    "opsi": [
+      "1,850",
+      "2,705",
+      "3,605",
+      "4,252",
+      "5,050"
+    ],
+    "kunci": "2,705"
+  },
+  {
+    "materi": "tiu",
+    "tipe": "teks",
+    "soal": "Jika 𝑎, 𝑏, dan 𝑐 bilangan bulat dengan 𝑎 ≠ 𝑏 yang memenuhi persamaan 𝑎𝑐 + 𝑏 = 𝑏𝑐 + 𝑎, maka nilai dari 𝑐 yang mungkin adalah ...",
+    "opsi": [
+      "7",
+      "5",
+      "1",
+      "-5",
+      "-7"
+    ],
+    "kunci": "1"
+  },
+  {
+    "materi": "tiu",
+    "tipe": "teks",
+    "soal": "",
+    "opsi": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "kunci": ""
+  },
+  {
+    "materi": "tiu",
+    "tipe": "teks",
+    "soal": "",
+    "opsi": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "kunci": ""
+  },
+  {
+    "materi": "tiu",
+    "tipe": "teks",
+    "soal": "",
+    "opsi": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "kunci": ""
+  },
+  {
+    "materi": "tiu",
+    "tipe": "teks",
+    "soal": "",
+    "opsi": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "kunci": ""
+  },
+  {
+    "materi": "tiu",
+    "tipe": "teks",
+    "soal": "",
+    "opsi": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "kunci": ""
   }
-
 ]

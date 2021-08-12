@@ -26,15 +26,30 @@ body {
 
 .soal {
   div.col-12 {
+    // display: none;
+    &.current {
+      display: flex;
+    }
+    h4 {
+      text-align: center;
+      font-weight: bold;
+      padding-bottom: 1rem;
+      border-bottom: var(--bs-primary) 3px solid;
+      margin-bottom: .75rem;
+    }
     p {
       text-align: justify;
       font-size: 115%;
+      white-space: pre-wrap;
     }
     img {
-      width: 100%;
+      max-width: 300px;
     }
     ul {
       list-style: none;
+      label {
+        text-align: left;
+      }
     }
   }
 }

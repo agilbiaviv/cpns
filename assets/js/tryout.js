@@ -1,5 +1,5 @@
 let tryoutVariable = {
-  durasi : (60 * 100) - 1, //100 menit (99 : 59)
+  durasi: (60 * 100) - 1, //100 menit (99 : 59)
   timerDisplay: document.querySelector('#timer')
 }
 
@@ -13,8 +13,8 @@ window.onload = () => {
 // =========================== TIMER =========================
 const startTimer = (durasi, display) => {
   let waktu = durasi,
-      menit,
-      detik
+    menit,
+    detik
 
   let runTimer = setInterval(() => {
     menit = parseInt(waktu / 60)
@@ -25,7 +25,7 @@ const startTimer = (durasi, display) => {
 
     display.textContent = `${menit} : ${detik}`
 
-    if(--waktu < 0) {
+    if (--waktu < 0) {
       // alert('Waktu Habis')
       clearInterval(runTimer)
       showAlert()
@@ -38,19 +38,19 @@ const startTimer = (durasi, display) => {
 // ============================UTIL=========================
 
 var getUrlParameter = function getUrlParameter(sParam) {
-    var sPageURL = window.location.search.substring(1),
-        sURLVariables = sPageURL.split('&'),
-        sParameterName,
-        i;
+  var sPageURL = window.location.search.substring(1),
+    sURLVariables = sPageURL.split('&'),
+    sParameterName,
+    i;
 
-    for (i = 0; i < sURLVariables.length; i++) {
-        sParameterName = sURLVariables[i].split('=');
+  for (i = 0; i < sURLVariables.length; i++) {
+    sParameterName = sURLVariables[i].split('=');
 
-        if (sParameterName[0] === sParam) {
-            return typeof sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
-        }
+    if (sParameterName[0] === sParam) {
+      return typeof sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
     }
-    return false;
+  }
+  return false;
 };
 
 const showAlert = () => {
@@ -79,7 +79,7 @@ const showAlert = () => {
 // ===========================================================
 
 // ==========================SOAL=============================
-const renderSoal = async() => {
+const renderSoal = async () => {
   let paket = getUrlParameter('paket')
   let res = await fetch(`./assets/paketFree/${paket}.json`)
   let dataSoal = await res.json()
@@ -93,20 +93,28 @@ const renderSoal = async() => {
     //create tempat soal
     let soalBox = document.createElement('div')
     Object.assign(soalBox, {
-      className : "col-12 my-2",
+      className: "col-12 my-2",
     })
     // soalBox.classList.add('col-12 my-2')
-    soalBox.setAttribute('data-soal', i+1)
+    soalBox.setAttribute('data-soal', i + 1)
 
-      //create paragraf soal
-    let soalContent = document.createElement('p')
-    soalContent.textContent = currentData.soal
+    //create info nomor soal 
+    let infoSoal = document.createElement('h4')
+    infoSoal.textContent = `Soal Nomor ${i + 1}`
+    //create paragraf soal
+    let soalContent
+    if (currentData.tipe == "teks") {
+      soalContent = document.createElement('p')
+      soalContent.innerHTML = currentData.soal
+    } else {
+      soalContent = document.createElement('img')
+      soalContent.setAttribute('src', currentData.soal)
+    }
 
-    console.log(soalContent)
     //create opsibox
     let opsiBox = document.createElement('ul')
     Object.assign(opsiBox, {
-      className : "px-0 py-2 border-top"
+      className: "px-0 py-2 border-top"
     })
 
     //render opsi item
@@ -116,18 +124,18 @@ const renderSoal = async() => {
 
       let input = document.createElement('input')
       Object.assign(input, {
-        type : "radio",
-        name : `r${i}`,
-        className : "btn-check",
-        id : `${pilihan[j]}${i+1}`,
+        type: "radio",
+        name: `r${i}`,
+        className: "btn-check",
+        id: `${pilihan[j]}${i + 1}`,
       })
       input.setAttribute("autoComplete", "off")
 
       let label = document.createElement('label')
       Object.assign(label, {
-        className : "btn btn-outline-primary",
+        className: "btn btn-outline-primary",
       })
-      label.setAttribute("for", `${pilihan[j]}${i+1}`)
+      label.setAttribute("for", `${pilihan[j]}${i + 1}`)
       label.textContent = currentData.opsi[j]
       //append input and label to li
       li.appendChild(input)
@@ -137,6 +145,7 @@ const renderSoal = async() => {
     }
 
     //append soalContent & opsi to soalBox
+    soalBox.appendChild(infoSoal)
     soalBox.appendChild(soalContent)
     soalBox.appendChild(opsiBox)
 
