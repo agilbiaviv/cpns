@@ -83,9 +83,10 @@ const renderSoal = async () => {
   let paket = getUrlParameter('paket')
   let res = await fetch(`./assets/paketFree/${paket}.json`)
   let dataSoal = await res.json()
-  console.log(dataSoal)
   let render = document.querySelector('.soal')
 
+  //render button
+  renderButton(dataSoal.length)
 
   for (let i = 0; i < dataSoal.length; i++) {
     let currentData = dataSoal[i]
@@ -98,7 +99,7 @@ const renderSoal = async () => {
     // soalBox.classList.add('col-12 my-2')
     soalBox.setAttribute('data-soal', i + 1)
 
-    //create info nomor soal 
+    //create info nomor soal
     let infoSoal = document.createElement('h4')
     infoSoal.textContent = `Soal Nomor ${i + 1}`
     //create paragraf soal
@@ -128,6 +129,7 @@ const renderSoal = async () => {
         name: `r${i}`,
         className: "btn-check",
         id: `${pilihan[j]}${i + 1}`,
+        value: `${currentData.opsi[j]}`
       })
       input.setAttribute("autoComplete", "off")
 
@@ -136,7 +138,7 @@ const renderSoal = async () => {
         className: "btn btn-outline-primary",
       })
       label.setAttribute("for", `${pilihan[j]}${i + 1}`)
-      label.textContent = currentData.opsi[j]
+      label.textContent = `${pilihan[j]}. ${currentData.opsi[j]}`
       //append input and label to li
       li.appendChild(input)
       li.appendChild(label)
@@ -151,8 +153,21 @@ const renderSoal = async () => {
 
     //append soalbox to classSoal
     render.appendChild(soalBox)
+
+    M.parseMath(render)
   }
 }
 
-
+const renderButton = (totalSoal) => {
+  let container = document.querySelector('.nomor-soal-container')
+  for (let i = 0; i < totalSoal; i++) {
+    let button = document.createElement('button')
+    Object.assign(button, {
+      className: "px-1 btn btn-outline-primary nomor-soal"
+    })
+    button.setAttribute('data-nomor', i+1)
+    button.textContent = i+1
+    container.appendChild(button)
+  }
+}
 // ===========================================================
