@@ -11464,17 +11464,43 @@ body {
   border-radius: 1rem;
 }
 
+.soal div.col-12 {
+  display: none;
+}
+
+.soal div.col-12.current {
+  display: block;
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+}
+
+.soal div.col-12 h4, .soal div.col-12 .h4 {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 1rem;
+  border-bottom: var(--bs-primary) 3px solid;
+  margin-bottom: .75rem;
+}
+
 .soal div.col-12 p {
   text-align: justify;
-  font-size: 115%;
+  font-size: 110%;
+  white-space: pre-wrap;
 }
 
 .soal div.col-12 img {
-  width: 100%;
+  max-width: 100%;
+  min-height: 120px;
 }
 
 .soal div.col-12 ul {
   list-style: none;
+}
+
+.soal div.col-12 ul label {
+  text-align: left;
 }
 
 .nomor-soal-container {
@@ -11490,5 +11516,23 @@ body {
       -ms-flex: 1 0 15%;
           flex: 1 0 15%;
   margin: .25rem;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 /*# sourceMappingURL=style.min.css.map */

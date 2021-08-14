@@ -6,13 +6,13 @@ let tryoutVariable = {
 let pilihan = ["A", "B", "C", "D", "E"]
 
 window.onload = () => {
-  // startTimer(tryoutVariable.durasi, tryoutVariable.timerDisplay)
   renderSoal()
+  startTimer(tryoutVariable.durasi, tryoutVariable.timerDisplay)
 }
 
 // =========================== TIMER =========================
 const startTimer = (durasi, display) => {
-  let waktu = durasi,
+  let waktu = localStorage.getItem('waktu') === null ? durasi : parseInt(localStorage.getItem('waktu')),
     menit,
     detik
 
@@ -24,9 +24,8 @@ const startTimer = (durasi, display) => {
     detik = detik < 10 ? `0${detik}` : detik
 
     display.textContent = `${menit} : ${detik}`
-
+    localStorage.setItem('waktu', waktu.toString())
     if (--waktu < 0) {
-      // alert('Waktu Habis')
       clearInterval(runTimer)
       showAlert()
     }
@@ -35,9 +34,9 @@ const startTimer = (durasi, display) => {
 }
 // =========================================================
 
-// ============================UTIL=========================
+// ============================MISC=========================
 
-var getUrlParameter = function getUrlParameter(sParam) {
+var getUrlParameter = (sParam) => {
   var sPageURL = window.location.search.substring(1),
     sURLVariables = sPageURL.split('&'),
     sParameterName,
@@ -72,7 +71,8 @@ const showAlert = () => {
   }).then((result) => {
     /* Read more about handling dismissals below */
     if (result.dismiss === Swal.DismissReason.timer) {
-      window.location.replace('www.google.com')
+      selesai()
+      // window.location.replace('https://agilbiaviv.github.io/cpns/skor.html')
     }
   })
 }
@@ -126,10 +126,11 @@ const renderSoal = async () => {
       let input = document.createElement('input')
       Object.assign(input, {
         type: "radio",
-        name: `r${i}`,
+        name: `r${i+1}`,
         className: "btn-check",
         id: `${pilihan[j]}${i + 1}`,
-        value: `${currentData.opsi[j]}`
+        value: `${currentData.opsi[j]}`,
+        onclick: () => setJawaban({index : i, jawaban: currentData.opsi[j]})
       })
       input.setAttribute("autoComplete", "off")
 
@@ -153,7 +154,9 @@ const renderSoal = async () => {
 
     //append soalbox to classSoal
     render.appendChild(soalBox)
-
+    //tampilkan soal nomor 1
+    setCurrentSoal(1)
+    //Initiate Math Equation
     M.parseMath(render)
   }
 }
@@ -163,11 +166,88 @@ const renderButton = (totalSoal) => {
   for (let i = 0; i < totalSoal; i++) {
     let button = document.createElement('button')
     Object.assign(button, {
-      className: "px-1 btn btn-outline-primary nomor-soal"
+      className: "px-1 btn btn-outline-primary nomor-soal",
     })
     button.setAttribute('data-nomor', i+1)
     button.textContent = i+1
     container.appendChild(button)
+    button.addEventListener('click', () => setCurrentSoal(i+1))
   }
 }
+
+const setJawaban = (data) => {
+  let {index, jawaban} = data
+  let arrJawaban = localStorage.getItem('jawaban') === null ? [] : JSON.parse(localStorage.getItem('jawaban'))
+
+  arrJawaban[index] = jawaban
+
+  localStorage.setItem('jawaban', JSON.stringify(arrJawaban))
+  $(`button[data-nomor=${index+1}]`)
+    .removeClass('btn-outline-primary')
+    .removeClass('btn-tersier')
+    .addClass('btn-secondary')
+  // console.log( $(`button[data-nomor=${index+1}]`).attr('class'))
+  // console.log(JSON.parse(localStorage.getItem('jawaban')))
+}
+
+const setCurrentSoal = (nomorSoal) => {
+  //set active button
+  $(`.nomor-soal[data-nomor=${nomorSoal}]`)
+    .addClass('active')
+    .siblings().removeClass('active')
+
+  $(`div[data-soal=${nomorSoal}]`)
+    .addClass('current')
+    .siblings().removeClass('current')
+
+  toggleTombolNavigasi(nomorSoal)
+}
+
+const toggleTombolNavigasi = (nomorSoal) => {
+  $('#btn-kembali').prop('disabled', false)
+  $('#btn-lanjut').removeClass('d-none')
+  $('#btn-selesai').addClass('d-none')
+
+  if(nomorSoal == 1) {
+    $('#btn-kembali').prop('disabled', true)
+  }
+
+  if(nomorSoal == 110) {
+    $('#btn-lanjut').addClass('d-none')
+    $('#btn-selesai').removeClass('d-none')
+  }
+}
+const tandaiSoal = () => {
+  let tombolNomor = $('button.nomor-soal.active')
+  let nomorSoal = tombolNomor.data('nomor')
+  let arrJawaban = localStorage.getItem('jawaban') === null ? [] : JSON.parse(localStorage.getItem('jawaban'))
+  arrJawaban[nomorSoal - 1] = ''
+
+  $(tombolNomor)
+    .addClass('btn-tersier')
+    .removeClass('btn-outline-primary')
+    .removeClass('btn-secondary')
+  $(`input[name=r${nomorSoal}]`).prop('checked', false)
+  localStorage.setItem('jawaban', JSON.stringify(arrJawaban))
+  console.log(JSON.parse(localStorage.getItem('jawaban')))
+}
+
+const navigate = n => {
+  let nomorSoal = $('.nomor-soal.active').data('nomor')
+  setCurrentSoal(nomorSoal + n)
+}
+
+const selesai = () => {
+  localStorage.removeItem('waktu')
+  window.location.replace(`skor.html?paket=${getUrlParameter('paket')}`)
+}
+
+// kurang function untuk mendisplay soal mana saja yang sudah dijawab,
+/*
+  ambil value localStorage.jawaban
+  parse menggunakan JSON.parse
+  lakukan pengecekan, index berapa saja yang isinya tidak null / empty string ( '' )
+  set class dari button nomor yang sudah terjawab menjadi btn-secondary
+  set attribut checked pada opsi (radio button) di masing2 soal sesuai dengan index dari localStorage.jawaban & valuenya :p
+*/
 // ===========================================================

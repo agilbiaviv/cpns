@@ -6,11 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BIMBEL CPNS</title>
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.9.55/css/materialdesignicons.min.css"
-    integrity="sha512-vIgFb4o1CL8iMGoIF7cYiEVFrel13k/BkTGvs0hGfVnlbV6XjAA0M0oEHdWqGdAVRTDID3vIZPOHmKdrMAUChA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="assets/scss/style.css">
+    <link rel="stylesheet" href="assets/scss/style.min.css">
     <link rel="stylesheet" href="assets/scss/jqmath.css">
 </head>
 
@@ -48,10 +44,11 @@
                   </div>
                   <hr class="my-2">
                   <div class="navigasi-soal-container d-flex flex-wrap">
-                    <button class="btn btn-tersier btn-block w-100 mx-1">Tandai Soal</button>
-                    <button class="btn btn-secondary navigasi" id="btn-kembali">
+                    <button class="btn btn-tersier btn-block w-100 mx-1" onclick="tandaiSoal()">Tandai Soal</button>
+                    <button class="btn btn-secondary navigasi" id="btn-kembali" onclick="navigate(-1)">
                       < Previous</button>
-                        <button class="btn btn-secondary navigasi" id="btn-lanjut">Next ></button>
+                        <button class="btn btn-secondary navigasi" id="btn-lanjut" onclick="navigate(1)">Next ></button>
+                        <button class="btn btn-secondary navigasi d-none" id="btn-selesai" onclick="selesai()">Submit</button>
                   </div>
                 </div>
               </div>
@@ -65,7 +62,7 @@
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="assets/js/tryout.js"></script>
   <script src="assets/js/jqmath.js"></script>

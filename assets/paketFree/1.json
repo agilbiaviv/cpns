@@ -781,8 +781,8 @@
   },
   {
     "materi": "tiu",
-    "tipe": "img",
-    "soal": "assets/paketFree/img/1/61.png",
+    "tipe": "teks",
+    "soal": "Pilihlah gambar yang mempunyai pola berikutnya<br><img src='assets/paketFree/img/1/61.png' />",
     "opsi": [
       "Pilihan A",
       "Pilihan B",
@@ -794,8 +794,8 @@
   },
   {
     "materi": "tiu",
-    "tipe": "img",
-    "soal": "assets/paketFree/img/1/62.png",
+    "tipe": "teks",
+    "soal": "Pilihlah gambar yang mempunyai pola berikutnya<br><img src='assets/paketFree/img/1/62.png' />",
     "opsi": [
       "Pilihan A",
       "Pilihan B",
@@ -807,8 +807,8 @@
   },
   {
     "materi": "tiu",
-    "tipe": "img",
-    "soal": "assets/paketFree/img/1/63.png",
+    "tipe": "teks",
+    "soal": "Pilihlah gambar yang mempunyai pola berbeda!<br><img src='assets/paketFree/img/1/63.png' />",
     "opsi": [
       "Pilihan A",
       "Pilihan B",
@@ -820,8 +820,8 @@
   },
   {
     "materi": "tiu",
-    "tipe": "img",
-    "soal": "assets/paketFree/img/1/64.png",
+    "tipe": "teks",
+    "soal": "Pilihlah gambar yang mempunyai pola berbeda!<br><img src='assets/paketFree/img/1/64.png' />",
     "opsi": [
       "Pilihan A",
       "Pilihan B",

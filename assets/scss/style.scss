@@ -26,9 +26,11 @@ body {
 
 .soal {
   div.col-12 {
-    // display: none;
+    display: none;
     &.current {
-      display: flex;
+      display: block;
+      animation-name: fade;
+      animation-duration: .5s;
     }
     h4 {
       text-align: center;
@@ -39,11 +41,12 @@ body {
     }
     p {
       text-align: justify;
-      font-size: 115%;
+      font-size: 110%;
       white-space: pre-wrap;
     }
     img {
-      max-width: 300px;
+      max-width: 100%;
+      min-height: 120px;
     }
     ul {
       list-style: none;
@@ -64,4 +67,11 @@ body {
   flex : 1 0 15%;
   margin: .25rem;
 }
-
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
