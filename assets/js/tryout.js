@@ -186,8 +186,6 @@ const setJawaban = (data) => {
     .removeClass('btn-outline-primary')
     .removeClass('btn-tersier')
     .addClass('btn-secondary')
-  // console.log( $(`button[data-nomor=${index+1}]`).attr('class'))
-  // console.log(JSON.parse(localStorage.getItem('jawaban')))
 }
 
 const setCurrentSoal = (nomorSoal) => {
@@ -239,7 +237,7 @@ const navigate = n => {
 
 const selesai = () => {
   localStorage.removeItem('waktu')
-  window.location.replace(`skor.html?paket=${getUrlParameter('paket')}`)
+  window.location.replace(`https://agilbiaviv.github.io/skor?paket=${getUrlParameter('paket')}`)
 }
 
 // kurang function untuk mendisplay soal mana saja yang sudah dijawab,
