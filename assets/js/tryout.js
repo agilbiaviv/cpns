@@ -108,6 +108,7 @@ const renderSoal = async () => {
       soalContent = document.createElement('p')
       soalContent.innerHTML = currentData.soal
     } else {
+      // else ini ga jadi dipake, bisa dihapus saja
       soalContent = document.createElement('img')
       soalContent.setAttribute('src', currentData.soal)
     }
@@ -126,11 +127,11 @@ const renderSoal = async () => {
       let input = document.createElement('input')
       Object.assign(input, {
         type: "radio",
-        name: `r${i+1}`,
+        name: `r${i + 1}`,
         className: "btn-check",
         id: `${pilihan[j]}${i + 1}`,
         value: `${currentData.opsi[j]}`,
-        onclick: () => setJawaban({index : i, jawaban: currentData.opsi[j]})
+        onclick: () => setJawaban({ index: i, jawaban: currentData.opsi[j] })
       })
       input.setAttribute("autoComplete", "off")
 
@@ -168,21 +169,21 @@ const renderButton = (totalSoal) => {
     Object.assign(button, {
       className: "px-1 btn btn-outline-primary nomor-soal",
     })
-    button.setAttribute('data-nomor', i+1)
-    button.textContent = i+1
+    button.setAttribute('data-nomor', i + 1)
+    button.textContent = i + 1
     container.appendChild(button)
-    button.addEventListener('click', () => setCurrentSoal(i+1))
+    button.addEventListener('click', () => setCurrentSoal(i + 1))
   }
 }
 
 const setJawaban = (data) => {
-  let {index, jawaban} = data
+  let { index, jawaban } = data
   let arrJawaban = localStorage.getItem('jawaban') === null ? [] : JSON.parse(localStorage.getItem('jawaban'))
 
   arrJawaban[index] = jawaban
 
   localStorage.setItem('jawaban', JSON.stringify(arrJawaban))
-  $(`button[data-nomor=${index+1}]`)
+  $(`button[data-nomor=${index + 1}]`)
     .removeClass('btn-outline-primary')
     .removeClass('btn-tersier')
     .addClass('btn-secondary')
@@ -206,11 +207,11 @@ const toggleTombolNavigasi = (nomorSoal) => {
   $('#btn-lanjut').removeClass('d-none')
   $('#btn-selesai').addClass('d-none')
 
-  if(nomorSoal == 1) {
+  if (nomorSoal == 1) {
     $('#btn-kembali').prop('disabled', true)
   }
 
-  if(nomorSoal == 110) {
+  if (nomorSoal == 110) {
     $('#btn-lanjut').addClass('d-none')
     $('#btn-selesai').removeClass('d-none')
   }
@@ -246,6 +247,6 @@ const selesai = () => {
   parse menggunakan JSON.parse
   lakukan pengecekan, index berapa saja yang isinya tidak null / empty string ( '' )
   set class dari button nomor yang sudah terjawab menjadi btn-secondary
-  set attribut checked pada opsi (radio button) di masing2 soal sesuai dengan index dari localStorage.jawaban & valuenya :p
+  set attribute checked pada opsi (radio button) di masing2 soal sesuai dengan index dari localStorage.jawaban & valuenya :p
 */
 // ===========================================================
