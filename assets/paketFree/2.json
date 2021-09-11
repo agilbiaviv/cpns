@@ -534,7 +534,7 @@
   {
     "materi": "tiu",
     "tipe": "teks",
-    "soal": "Jika 4𝑦𝑦 − 9𝑥𝑥 = 34 dan −2𝑥𝑥 + 7𝑦𝑦 = 21 maka nilai dari 7𝑥𝑥 + 3𝑦𝑦 = ….",
+    "soal": "Jika 4𝑦 − 9𝑥 = 34 dan −2𝑥 + 7𝑦 = 21 maka nilai dari 7𝑥 + 3𝑦 = ….",
     "opsi": [
       "0",
       "-9",
@@ -618,7 +618,7 @@
   {
     "materi": "tiu",
     "tipe": "teks",
-    "soal": "Diketahui jarak kota M ke kota N adalah 90 km. Jika 𝑝𝑝 adalah lama waktu tempuh dari M ke N dengan kecepatan 30 km/jam dan 𝑞𝑞 adalah lama waktu tempuh dari M ke N dengan kecepatan 45 km/jam, maka ....",
+    "soal": "Diketahui jarak kota M ke kota N adalah 90 km. Jika 𝑝 adalah lama waktu tempuh dari M ke N dengan kecepatan 30 km/jam dan 𝑞 adalah lama waktu tempuh dari M ke N dengan kecepatan 45 km/jam, maka ....",
     "opsi": [
       "𝑝 = 𝑞",
       "𝑝 = 2𝑞",
@@ -700,483 +700,843 @@
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
+    "materi": "tiu",
+    "tipe": "teks",
+    "soal": "Dengan harga penjualan Rp3.450.000,00 seorang penjual laptop memperoleh untung 15%. Harga pembelian laptop tersebut adalah....",
+    "opsi": [
+      "Rp3.200.000,00",
+      "Rp3.150.000,00",
+      "Rp3.000.000,00",
+      "Rp2.950.000,00",
+      "Rp2.900.000,00"
+    ],
+    "kunci": "Rp3.000.000,00",
+    "pembahasan": ""
+  },
+  {
+    "materi": "tiu",
+    "tipe": "teks",
+    "soal": "Nomor presensi Budi terletak pada urutan ke 25 dari atas maupun dari bawah. Ada berapa siswa di kelas Budi?",
+    "opsi": [
+      "51",
+      "50",
+      "49",
+      "48",
+      "47"
+    ],
+    "kunci": "49",
+    "pembahasan": ""
+  },
+  {
+    "materi": "tiu",
+    "tipe": "teks",
+    "soal": "1, 2, 4, 5, 25, ...",
+    "opsi": [
+      "26",
+      "16",
+      "13",
+      "9",
+      "7"
+    ],
+    "kunci": "26",
+    "pembahasan": ""
+  },
+  {
+    "materi": "tiu",
+    "tipe": "teks",
+    "soal": "5, 11, 7, 22, 10, 44, 15, …, ….",
+    "opsi": [
+      "88, 20",
+      "105, 24",
+      "88, 22",
+      "154, 32",
+      "160, 54"
+    ],
+    "kunci": "88, 22",
+    "pembahasan": ""
+  },
+  {
+    "materi": "tiu",
+    "tipe": "teks",
+    "soal": "5, 7, ... , 17, 25, 35, ....",
+    "opsi": [
+      "9, 42",
+      "11, 47",
+      "10, 42",
+      "12, 47",
+      "13, 52"
+    ],
+    "kunci": "11, 47",
+    "pembahasan": ""
+  },
+  {
+    "materi": "tiu",
+    "tipe": "teks",
+    "soal": "Semua mahasiswa diwajibkan tinggal di asrama kampus pada semester 1 dan semester 2. Doni adalah mahasiswa yang sekarang sudah semester 3.",
+    "opsi": [
+      "Doni tidak tinggal di asrama kampus saat semester 1 dan 2",
+      "Doni tidak pernah tinggal di asrama kampus",
+      "Terdapat mahasiswa semester 3 yang tinggal di asrama kampus",
+      "Sebagian mahasiswa semester 1 tidak tinggal di asrama kampus",
+      "Tidak dapat disimpulkan"
+    ],
+    "kunci": "Tidak dapat disimpulkan",
+    "pembahasan": ""
+  },
+  {
+    "materi": "tiu",
+    "tipe": "teks",
+    "soal": "Semua bilangan kelipatan lima pasti habis dibagi lima. Sebagian bilangan prima adalah kelipatan lima.",
+    "opsi": [
+      "Sebagian bilangan prima habis dibagi lima",
+      "Semua bilangan prima tidak habis dibagi lima",
+      "Semua bilangan kelipatan lima adalah prima",
+      "Sebagian bilangan yang habis dibagi lima bukan kelipatan lima",
+      "Tidak dapat disimpulkan"
+    ],
+    "kunci": "Sebagian bilangan prima habis dibagi lima",
+    "pembahasan": ""
+  },
+  {
+    "materi": "tiu",
+    "tipe": "teks",
+    "soal": "Singa makan daging rusa. Daging rusa sangat bergizi. Semua yang makan makanan bergizi badannya menjadi sehat. ",
+    "opsi": [
+      "Badan singa menjadi sehat",
+      "Singa lebih sehat daripada rusa",
+      "Badan singa menjadi kuat",
+      "Singa tidak sehat",
+      "Tidak dapat disimpulkan"
+    ],
+    "kunci": "Badan singa menjadi sehat",
+    "pembahasan": ""
+  },
+  {
+    "materi": "tiu",
+    "tipe": "teks",
+    "soal": "Proses pembuatan meja kayu di sebuah perusahaan manufaktur terdiri atas enam tahapan yaitu A, B, C, D, E dan F dengan ketentuan pengerjaannya sebagai berikut: Tahap A hanya dapat dilakukan bila tahap B selesai dikerjakan. Tahap A harus dilaksanakan bersamaan dengan tahap C. Tahap D hanya boleh dilaksanakan bersama tahap E. Tahap D tidak boleh dikerjakan bersamaan dengan tahap F. Pernyataan yang pasti benar di bawah ini adalah ….",
+    "opsi": [
+      "Tahap A dikerjakan setelah tahap D ",
+      "Tahap E hanya boleh dikerjakan jika tahap A sudah dikerjakan",
+      "Tahap B harus dikerjakan sebelum tahap C dikerjakan",
+      "Jika tahap D dikerjakan maka tahap C tidak boleh dikerjakan",
+      "Tahap yang dikerjakan adalah A, B, D, E."
+    ],
+    "kunci": "Tahap B harus dikerjakan sebelum tahap C dikerjakan",
+    "pembahasan": ""
+  },
+  {
+    "materi": "tiu",
+    "tipe": "teks",
+    "soal": "Data usia beberapa siswa pada suatu sekolah adalah sebagai berikut : Dian lebih muda daripada Cepti dan lebih tua daripada Abe. Tria lebih tua daripada Abe dan lebih muda dari Bagus. Feri lebih muda daripada Tria dan lebih tua daripada Abe. Bagus lebih tua daripada Cepti. Yang paling tua dari keenam siswa tersebut adalah ...",
+    "opsi": [
+      "Bagus",
+      "Cepti",
+      "Feri",
+      "Tria",
+      "Tidak dapat ditentukan"
+    ],
+    "kunci": "Bagus",
+    "pembahasan": ""
+  },
+  {
+    "materi": "tiu",
+    "tipe": "teks",
+    "soal": "Pilihlah gambar yang mempunyai pola yang berikutnya!<br><img src='assets/paketFree/img/2/61.png'/>",
+    "opsi": [
+      "Pilihan A",
+      "Pilihan B",
+      "Pilihan C",
+      "Pilihan D",
+      "Pilihan E"
+    ],
+    "kunci": "Pilihan D",
+    "pembahasan": ""
+  },
+  {
+    "materi": "tiu",
+    "tipe": "teks",
+    "soal": "Pilihlah gambar yang mempunyai pola yang berikutnya!<br><img src='assets/paketFree/img/2/62.png'/>",
+    "opsi": [
+      "Pilihan A",
+      "Pilihan B",
+      "Pilihan C",
+      "Pilihan D",
+      "Pilihan E"
+    ],
     "kunci": "",
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
+    "materi": "tiu",
+    "tipe": "teks",
+    "soal": "Pilihlah gambar yang mempunyai pola yang berbeda!<br><img src='assets/paketFree/img/2/63.png'/>",
+    "opsi": [
+      "Pilihan A",
+      "Pilihan B",
+      "Pilihan C",
+      "Pilihan D",
+      "Pilihan E"
+    ],
     "kunci": "",
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
+    "materi": "tiu",
+    "tipe": "teks",
+    "soal": "Pilihlah gambar yang mempunyai pola yang berbeda!<br><img src='assets/paketFree/img/2/64.png'/>",
+    "opsi": [
+      "Pilihan A",
+      "Pilihan B",
+      "Pilihan C",
+      "Pilihan D",
+      "Pilihan E"
+    ],
     "kunci": "",
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
+    "materi": "tiu",
+    "tipe": "teks",
+    "soal": "<img src='assets/paketFree/img/2/65.png'/>",
+    "opsi": [
+      "Pilihan A",
+      "Pilihan B",
+      "Pilihan C",
+      "Pilihan D",
+      "Pilihan E"
+    ],
     "kunci": "",
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Anda dikenal sebagai seorang pegawai perpustakaan yang tegas. Menurut aturan yang ditetapkan, pengunjung perpustakaan tidak boleh makan di dalam perpustakaan. Suatu hari, Anda melihat seorang mahasiswa yang sambil belajar, makan sepotong roti dengan lahapnya dan tampak kelaparan. Sebaiknya Anda ....",
+    "opsi": [
+      "Memberikan teguran yang sopan dengan menjelaskan aturan yang berlaku",
+      "Membiarkan hal tersebut terjadi karena ada petugas kebersihan yang akan membersihkannya ",
+      "Membiarkan hal tersebut sebab Anda kasihan dengan pengunjung tersebut",
+      "Meminta pengunjung tersebut menghabiskan makanannya di luar terlebih dahulu",
+      "Menyita makanan tersebut dan membuangkan ke tempat sampah"
+    ],
+    "kunci": [5,1,2,4,3],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Perdagangan bebas yang dilakukan Indonesia berdampak luas terhadap para usaha ekonomi mikro. Sebagian besar dari mereka belum siap dengan berlakunya sistem perdagangan bebas. Pemerintahan seolah-olah tinggal diam melihat kondisi tersebut. Seharusnya ada upaya yang dilakukan pemerintah untuk menghindari kejadian tersebut. Dengan adanya pasar bebas, banyak pengusaha mikro gulung tikar. Hak mereka untuk berjualan terhambat akibat banyaknya produk yang berasal dari luar. Anda adalah profesional di bidang tersebut, tindakan Anda ....",
+    "opsi": [
+      "Menghapuskan pajak dan memaksa mereka menghasilkan produk yang murah",
+      "Melakukan evaluasi usaha dan memaksa bersaing dengan pengusaha dari luar negeri",
+      "Memberi modal dan megalihkan sektor usaha ke bidang jasa ",
+      "Memberikan pelatihan usaha dan peminjaman modal usaha",
+      "Memberikan pelatihan dan memaksa mereka menghasilkan produk berkualitas"
+    ],
+    "kunci": [3,2,4,5,1],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Setelah lulus kuliah, saya langsung diterima bekerja di salah satu perusahaan swasta yang cukup besar di kota saya. Setelah beberapa bulan bekerja di sana saya merasa betah dan cocok pada sistem kerjanya. Tetapi pada suatu hari di saat beban kerja saya sangat menumpuk, atasan masih menyodorkan pekerjaan yang harus segera diselesaikan. Sikap saya adalah ....",
+    "opsi": [
+      "Menolak pekerjaan tersebut secara halus dan meminta teman lain yang lebih longgar menyelesaikannya",
+      "Menerima tambahan pekerjaan tersebut dan mengerjakan sebisa saya",
+      "Menerima pekerjaan tersebut, tetapi saya kemudian melemparkan pekerjaan tersebut kepada teman yang lebih longgar",
+      "Mengerjakan pekerjaan tersebut terlebih dahulu dengan segera menyelesaikannya dan kemudian beralih ke pekerjaan sebelumnya",
+      "Menerima dan menyelesaikan pekerjaan yang diberikan atasan lantas menunda pekerjaan sebelumnya"
+    ],
+    "kunci": [2,4,1,5,3],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Anda bekerja di bagian perencanaan dan keuangan di salah satu instansi pemerintah. Anda baru saja bekerja sebagai PNS di kantor sekitar satu tahun. Pada bulan ini ada kedatangan siswa-siswa SMK yang melaksanakan PKL di kantor Anda sebagai penugasan dari sekolah mereka. Rekan Anda yang lebih senior ditunjuk sebagai mentor dari siswa-siswa SMK tersebut. Namun, rekan Anda sering tidak memberikan bimbingan atau mengawasi siswa-siswa PKL. Suatu hari Anda memergoki mereka bermain game online di komputer kantor pada saat jam kerja. Sikap Anda adalah ....",
+    "opsi": [
+      "Memberitahukan mentor mereka bahwa ada siswa SMK yang bermain game online",
+      "Memberitahukan kepada pihak sekolah bahwa siswa PKL dari SMK mereka bermain game online pada saat jam kerja",
+      "Memberitahukan rekan Anda untuk selalu mengawasi siswa SMK",
+      "Memberitahukan kepada siswa SMK bahwa apa yang telah dilakukan tidak boleh dan memberikan punishment agar mereka tidak mengulanginya lagi ",
+      "Menasihati siswa SMK tersebut agar tidak mengulanginya lagi dan melaporkan hal tersebut kepada mentor mereka "
+    ],
+    "kunci": [4,1,2,3,5],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Dalam suatu pekerjaan terkadang kita akan diberikan sebuah tugas di luar kapasitas dan kompetensi, bahkan melebihi beban kerja. Ketika menghadapi tugas yang tidak ringan dan menuntut kemampuan tinggi untuk menyelesaikannya, sikap saya ....",
+    "opsi": [
+      "Saya menerima pekerjaan tersebut dan berusaha menyelesaikan sedikit demi sedikit meskipun memakan waktu yang cukup pangjang. Saya yakin tidak selamanya atasan akan memberikan pekerjaan berat di luar kemampuan saya",
+      "Saya akan menerima pekerjaan tersebut, saya akan berusaha mencari cara penyelesaian yang tidak membutuhkan waktu panjang",
+      "Saya akan menjelaskan kepada atasan bahwa pekerjaan tersebut terlalu berat bagi saya, namun bila dipaksakan tugas yang berat tersebut maka saya akan meninggalkan begitu saja",
+      "Saya merasa pemberian tugas yang berat tersebut sebagai sebuah ketidakadilan maka saya akan berhenti bekerja dan mencari tempat kerja lain yang lebih bisa menghargai saya",
+      "Saya akan menerima pekerjaan tersebut karena sudah menjadi tanggung jawab, tetapi pekerjaan itu dirasakan sangat berat maka saya akan mencari bantuan orang lain untuk menyelesaikannya"
+    ],
+    "kunci": [4,5,1,2,3],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Anda sudah sekitar lima tahun bekerja di salah satu perusahaan yang cukup terkenal. Akhir bulan ini tugas Anda sangat banyak karena omzet perusahaan semakin hari semakin meningkat. Suatu pagi, atasan Anda membagikan tugas yang mendesak, maka yang akan Anda lakukan adalah ....",
+    "opsi": [
+      "Memprioritaskan, berkonsentrasi sepenuhnya pada tugas, dan mencatat metode penyelesaiannya walaupun tidak tuntas",
+      "Beralih terus-menerus dari satu tugas ke tugas lainnya",
+      "Karena banyaknya tugas membuat Anda tidak dapat fokus mengerjakan tugas ",
+      "Mencoba mengatasi masalah-masalah yang berbeda secara bergiliran dan berkonsentrasi menyelesaikan tugas tersebut",
+      "Agak terganggu oleh tugas-tugas yang belum terselesaikan oleh Anda"
+    ],
+    "kunci": [4,1,2,5,3],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Anda adalah seorang guru. Di sekolah tempat Anda bekerja sering dijumpai beberapa siswa yang merokok di kamar mandi. Padahal sekolah sudah memberikan tulisan peringatan serta aturan untuk tidak merokok dan tidak membawa rokok ke dalam area sekolah. Tindakan apa yang akan Anda lakukan?",
+    "opsi": [
+      "Saya akan memperingatkan siswa-siswa yang kedapatan sering merokok di kamar mandi dan menghimbau siswa yang lain untuk tidak meniru hal itu",
+      "Saya dan bersama seluruh komponen sekolah untuk memberikan contoh perilaku baik tidak merokok",
+      "Karena ada petugasnya masing-masing (guru BK dan tertib sekolah), sebaiknya saya memilih berdiam diri untuk menghindari kesalahpahaman",
+      "Saya meminta kepala sekolah agar turun langsung menangani masalah ini dengan memberikan sanksi kepada siswa-siswa yang merokok agar mereka jera",
+      "Saya akan memanggil orang tua siswa yang kedapatan merokok agar dapat memberikan bimbingan dan arahan kepada anaknya"
+    ],
+    "kunci": [3,2,1,5,4],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Tommy adalah seorang ketua OSIS di sekolahnya. Minggu depan akan ada acara penting di sekolah tetapi Tommy dan tiga orang temannya ditunjuk oleh kepala sekolah untuk mewakili sekolah dalam perlombaan olimpiade yang mengharuskan mereka mengikuti kelas tambahan selama dua minggu. Yang harus dilakukan Tommy adalah ....",
+    "opsi": [
+      "Tommy menerima tawaran olimpiade tersebut ",
+      "Tommy mempersiapkan acara tersebut terlebih dahulu kemudian ikut kelas tambahan",
+      "Tommy mengajak para anggota OSIS untuk merencanakan acara terlebih dahulu baru kemudian menyusun rencana pribadinya",
+      "Tommy menolak tawaran tersebut karena lebih mementingkan acara yang sudah terjadwal",
+      "Tommy mempersiapkan acara tersebut sambil mengikuti kelas tambahan untuk olimpiade"
+    ],
+    "kunci": [2,4,5,1,3],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Anda merupakan staff operational support yang sudah bekerja selama bertahun-tahun di sebuah perusahaan swasta yang memiliki banyak cabang. Bagaimana sikap yang Anda ambil ketika sedang banyak cabang yang membutuhkan fasilitas?",
+    "opsi": [
+      "Menyerahkan sepenuhnya ke manajer operasional karena beliau yang punya wewenang",
+      "Membagi-bagi tanggung jawab dengan staff operasional lain agar tugas lebih ringan",
+      "Membuat dulu garis besar strategi dan alur koordinasi sehingga nantinya tidak membuat bingung",
+      "Antusias cepat menanggapi cabang yang butuh sarana prasarana tertentu",
+      "Mengatasi masalah koordinasi dengan membuat grup whatsapp bagi semua ketua cabang"
+    ],
+    "kunci": [1,2,5,3,4],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Saya sedang berada di dalam angkutan umum menuju ke kantor, kondisi di dalam bus lumayan penuh sehingga membuat saya harus berdiri dan berdesak-desakan dengan penumpang lainnya. Salah satu penumpang mendesak saya. Maka sikap saya adalah ...",
+    "opsi": [
+      "Diam saja dan menggerutu di dalam hati ",
+      "Mengingatkan penumpang tersebut dengan sopan agar tidak terlalu mendesak",
+      "Mendorong penumpang tersebut secara perlahan agar sedikit menjauh",
+      "Membiarkan saja karena mengerti memang kondisi di dalam penuh dan harus berdesak-desakan",
+      "Langsung mengumpat"
+    ],
+    "kunci": [2,4,3,5,1],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Anda adalah seorang kepala desa di desa Anda tinggal, pemerintah pusat tengah melakukan ekspansi tentang menaikkan mutu pendidikan dan sarana pendidikan yang tidak terlepas dari tersedianya sarana pendidikan yang memadai yang meliputi sarana TIK dan tenaga pengajar. Apalagi pertumbuhan penduduk secara alami di desa Anda masih cukup tinggi, maka pada saatnya kedua fasilitas tersebut perlu diperhatikan agar tujuan pendidikan dapat tercapai dengan baik. Namun hal tersebut terkendala oleh kurangnya akses penghubung bantuan pemerintah ke desa Anda karena jalanan rusak. Padahal jalanan tersebut merupakan satu-satunya akses untuk dapat memasuki desa Anda. Sebaiknya hal apa yang perlu Anda lakukan?",
+    "opsi": [
+      "Mulai menyusun anggaran untuk perbaikan jalan agar akses untuk bantuan pemerintah bisa segera tersalurkan",
+      "Melaporkan hal ini ke pihak pemerintah dengan melakukan tinjauan lokasi terlebih dahulu agar bantuan pemerintah dapat segera tersalurkan",
+      "Mengumpulkan sumbangan atau donasi di masyarakat desa Anda, mengingat pendidikan adalah hal utama yang harus didahulukan",
+      "Mencoba untuk menghubungi pihak terkait untuk segera dibuatkan program perbaikan jalan untuk mempermudah akses bantuan pemerintah masuk ke desa Anda",
+      "Bekerja sama dengan warga setempat untuk memperbaiki jalanan rusak tersebut"
+    ],
+    "kunci": [3,5,1,4,2],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Anda sedang ingin pergi bersama keluarga Anda dengan mobil pribadi anda, tiba-tiba seorang tetangga datang  hendak meminjam mobil Anda untuk membawa istrinya ke klinik bersalin terdekat karena ia akan melahirkan. Maka Anda akan ....",
+    "opsi": [
+      "Membatalkan rencana pergi bersama keluarga dengan mobil",
+      "Meminjamkan mobil Anda kepada tetangga itu",
+      "Menawarkan untuk mengantarkan tetangga dan istrinya itu",
+      "Tetap pergi bersama keluarga Anda setelah mengantarkan tetangga dan istrinya itu ke klinik bersalin",
+      "Menyuruh tetangga Anda untuk menelepon ambulans saja"
+    ],
+    "kunci": [2,3,4,5,1],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Tahun ini keuntungan perusahaan tempat Anda bekerja mengalami peningkatan yang sangat besar sehingga untuk merayakannya akan diadakan darmawisata ke Bali. Seluruh karyawan diwajibkan ikut. Ketika sampai di sana, Anda mengunjungi objek wisata yang digunakan penduduk Bali untuk beribadah. Bagaimana sikap Anda berada di tempat tersebut?",
+    "opsi": [
+      "Menjaga ketenangan di tempat ibadah",
+      "Membuat kegaduhan di sekitar tempat ibadah",
+      "Mendekati lokasi upacara keagamaan penduduk Bali",
+      "Menyaksikan ritual adat yang dilakukan masyarakat Bali",
+      "Mencoba mendalami lebih lanjut ritual tersebut"
+    ],
+    "kunci": [5,1,3,4,2],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Semalam di daerah Anda dilanda hujan lebat disertai angin kencang yang berakibat beberapa pohon tumbang dan menghalangi jalan di komplek perumahan tempat tinggal Anda, sehingga mengganggu aktivitas warga perumahan termasuk Anda keesokan harinya. Maka menghadapi permasalahan tersebut Anda akan ....",
+    "opsi": [
+      "Meminta pertanggungjawaban ketua RT mengenai pohon tumbang tersebut",
+      "Menelepon pemadam kebakaran untuk menyingkirkan pohon tersebut",
+      "Mengajak warga kompleks untuk menyingkirkan pohon tersebut",
+      "Menyingkirkan pohon tumbang tersebut sembari menunggu petugas pemadam kebakaran datang membantu",
+      "Menyuruh warga kerja bakti untuk menyingkirkan pohon tersebut"
+    ],
+    "kunci": [1,2,5,4,3],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Pak Zainal mengikuti pemilihan ketua RT. Pak Zainal terpilih menjadi ketua RT karena pemenang suara terbanyak warganya tetapi ia memiliki tugas kantor yang sangat banyak. Sebaiknya yang dilakukan Pak Zainal adalah ....",
+    "opsi": [
+      "Pak Zainal menolak menjadi ketua RT karena dia berubah pikiran dan lebih mementingkan tugas kantor ",
+      "Mengikuti demokrasi yang berjalan sesuai surat suara terbanyak warganya",
+      "Pak Zainal menerima tugas sebagai ketua RT tetapi meminta warganya untuk selalu membantunya dalam menjalankan tugasnya",
+      "Pak Zainal menerima menjadi ketua RT dengan menjelaskan kepada warganya bahwa dia memiliki banyak tugas kantor",
+      "Pak Zainal menerima menjadi ketua RT dan menyampaikan kepada warganya bila harus bekerja bersamasama untuk memajukan RT"
+    ],
+    "kunci": [1,4,2,3,5],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Kita mengetahui keberhasilan adalah sesuatu yang tidak mutlak. Anda saat ini bekerja di suatu badan pemerintahan yang memberikan pelayanan publik. Dalam prinsip kehidupan, keberhasilan seseorang itu harus dimulai dari keberhasilan diri sendiri yang mandiri dalam hal apapun. Keberhasilan menurut saya dalam pekerjaan adalah ....",
+    "opsi": [
+      "Mencapai tujuan hidup",
+      "Meraih kesuksesan dalam karier",
+      "Menjadi manusia yang berguna bagi sesama",
+      "Menjadi manusia yang baik dan benar",
+      "Menjadi manusia yang rajin beribadah"
+    ],
+    "kunci": [2,1,5,3,4],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Saat sedang menunggu bus umum untuk perjalanan pulang ke rumah, orang di samping saya terlihat gelisah dengan mencari sesuatu di tasnya dan ternyata orang tersebut kehilangan dompetnya. Melihat hal tersebut tindakan yang akan saya lakukan adalah ....",
+    "opsi": [
+      "Menyarankan untuk pulang ke rumahnya dengan naik ojek dan dapat membayarnya nanti di rumah",
+      "Khawatir hal tersebut merupakan modus baru dalam penipuan",
+      "Menawarkan bantuan dengan meneleponkan polisi perihal kehilangan dompet tersebut",
+      "Ikut prihatin dan meminta sumbangan sukarela kepada orang-orang sekitar agar orang tersebut dapat pulang ke rumahnya",
+      "Memberikan uang sekadarnya untuk perjalanan orang tersebut pulang"
+    ],
+    "kunci": [3,1,4,2,5],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Anda sewaktu muda adalah seorang pemain sepak bola yang handal dan berhasil memenangkan beberapa pertandingan. Karena prestasi Anda tersebut, sekarang ini Anda ditunjuk menjadi pelatih sepak bola tetapi mayoritas anggota sepak bola tersebut tidak disiplin dalam berlatih. Maka tindakan yang akan Anda lakukan adalah ....",
+    "opsi": [
+      "Mundur sebagai pelatih karena tidak bisa melatih pemain yang tidak disiplin",
+      "Mencoret anggota yang tidak disiplin agar dia sadar akan perbuatannya yang tidak disiplin dan berusaha merubah sikapnya",
+      "Memberikan perhatian lebih pada anggota yang disiplin sehingga anggota yang tidak disiplin sadar jika tidak dipedulikan dan bisa merubah sikapnya",
+      "Merekrut kembali anggota yang terbaik sehingga anggota yang tidak disiplin dijadikan pemain cadangan",
+      "Memaksa anggota untuk mematuhi aturan yang Anda buat sehingga terbentuk pola tertentu dalam pelatihan"
+    ],
+    "kunci": [1,4,3,2,5],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Dalam suatu organisasi tentunya diperlukan sebuah kepanitian agar satu sama lain bisa melaksanakan tugasnya masing-masing sehingga tujuan yang diinginkan atau diharapkan oleh organisasi pun bisa tercapai. Sebagai tim penyusun kepanitiaan yang akan Anda perhatikan adalah ....",
+    "opsi": [
+      "Merekrut anggota yang sudah berpengalaman",
+      "Membandingkan kompetensi calon anggota dengan kualifikasi yang dibutuhkan",
+      "Merekrut sebanyak mungkin anggota sehingga ditemukan komposisi yang sesuai kebutuhan",
+      "Merekrut anggota yang sesuai dengan budget keuangan yang dimiliki",
+      "Merekrut anggota yang lebih dahulu melamar"
+    ],
+    "kunci": [4,5,3,2,1],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Haikal adalah mahasiswa dengan indeks prestasi tertinggi yang memilih mengerjakan tugas sendiri karena kesulitan untuk menyatukan pendapatnya dengan mahasiswa lain dalam kelompoknya. Hal tersebut membuat kelompok Haikal mendapatkan nilai kerja sama yang rendah. Sikap Bagas sebagai anggota kelompok Haikal adalah ....",
+    "opsi": [
+      "Menilai hal tersebut wajar karena Haikal sanggup menyelesaikan tugas tersebut sendirian",
+      "Menunjuk salah satu anggota kelompok untuk meminta Haikal menyelesaikan tugas secara bersama-sama",
+      "Berdiskusi mengenai pembagian tugas untuk mendorong seluruh anggota terlibat dalam penyelesaian tugas",
+      "Mengusulkan untuk menggunakan hasil kerja yang dibuat bersama-sama di dalam kelompok",
+      "Menasihati Haikal bahwa walaupun bisa bekerja sendiri, seaiknya ia menyelesaikan tugas bersama teman yang lain"
+    ],
+    "kunci": [1,2,5,3,4],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Ketika seseorang memegang peranan sebagai atasan di kantor, ia harus memiliki karakter yang bisa dijadikan sebagai panutan. Tak sekadar bijak dalam bersikap, seorang atasan juga dituntut untuk memberi arahan yang baik agar kinerja karyawan semakin maksimal. Tetapi terkadang ada juga atasan yang bersikap kurang objektif dan tidak adil pada karyawannya. Hal ini tentu bukan sikap seorang atasan yang baik. Seperti yang terjadi di tempat kerja Anda, atasan bersikap kurang objektif hanya karena berbuat kesalahan sekali, lantas kesalahan tersebut selalu jadi alasan untuk membully Anda. Bagaimana Anda menyikapi hal tersebut?",
+    "opsi": [
+      "Menghadapi atasan yang tidak adil bukan perkara yang gampang. Tetapi sebelum menjudge atasan dengan label demikian, saya harus paham akar dari masalah ketidakadilan yang saya terima ini",
+      "Saya harus bisa menjalin komunikasi lebih intens dengan atasan, bukan tidak mungkin dengan komunikasi yang lancar, saya mampu menghadapi atasan yang tidak adil sebelumnya karena sudah tahu permasalahannya di mana",
+      "Menunjukkan sebesar apa kemampuan yang saya miliki dan membiarkan atasan yang menilai",
+      "Mengendalikan suasana hati ketika berada di lingkungan kantor dan belajar untuk bersikap lebih tenang terutama ketika menghadapi atasan yang tidak adil",
+      "Tidak berhenti menunjukkan rasa hormat di depan atasan karena tak ada yang tahu isi hati seseorang. Sikap buruk atasan tidak seharusnya saya balas dengan sikap yang sama buruknya. Bisa jadi dengan sikap saya yang baik, atasan kemudian bisa melihat sisi baik dalam diri saya "
+    ],
+    "kunci": [2,4,5,1,3],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Sumber daya manusia (SDM) merupakan suatu hal yang sangat penting yang harus dimiliki dalam upaya mencapai tujuan organisasi atau perusahaan. Jika tim Anda kekurangan sumber daya manusia, maka untuk tetap menjaga kinerja tim Anda yang perlu dilakukan adalah ....",
+    "opsi": [
+      "Meminta anggota tetap loyal terhadap tim",
+      "Memberikan bonus khusus bagi anggota yang memberikan kontribusi terbaiknya",
+      "Berupaya bersama tim saling bantu untuk menyelesaikan tugas secara optimal",
+      "Mengerjakan tugas yang mampu dikerjakan",
+      "Memanfaatkan anggota yang memiliki kemampuan menonjol untuk menyelesaikan pekerjaan"
+    ],
+    "kunci": [1,3,5,2,4],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Rafael terpilih menjadi ketua BEM di kampusnya. Santi menginginkan posisi sekretaris di struktur organisasinya. Namun, Rafael menilai kompetensi Santi kurang tepat di posisi tersebut. Langkah yang sebaiknya dilakukan Rafael adalah ....",
+    "opsi": [
+      "Menetapkan posisi sekretaris melalui keputusan rapat bersama seluruh anggota BEM",
+      "Memutuskan sendiri untuk menjadikan Santi sebagai sekretaris agar ia tidak kecewa",
+      "Membuka kesempatan secara terbuka mengenai posisi jabatan di struktur organisasinya",
+      "Menawarkan posisi jabatan kepada seluruh anggota BEM yang ia ketahui kompetensinya",
+      "Menunggu pendapat rekan lainnya apakah setuju jika Santi menjadi sekretaris BEM"
+    ],
+    "kunci": [3,1,5,4,2],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Anda adalah seorang petugas BPJS yang bekerja di salah satu rumah sakit terbesar di kota Anda. Hari ini ada salah satu keluarga pasien tempat Anda bekerja menghampiri Anda dan menyampaikan sebuah keluhan yang berisi bahwa pasien dari keluarga itu salah dimasukkan ke ruangan reguler yang seharusnya dimasukkan di ruangan VIP di rumah sakit tersebut, kata keluarga pasien, dia telah melaporkan hal tersebut beberapa kali di bagian administrasi rumah sakit tetapi belum ada tanggapan. Anda menyadari hal tersebut seharusnya memiliki prosedur sendiri dan tetap sesuai aturan yang berlaku di rumah sakit. Sebagai seorang petugas BPJS, sikap apa yang Anda ambil?",
+    "opsi": [
+      "Menerima, mendengar, dan mencatat seluruh keluhan keluarga pasien tersebut dan memberitahukan secara halus agar melaporkan hal tersebut ke pihak yang seharusnya",
+      "Menerima, mendengar, dan mencatat seluruh keluhan keluarga pasien tersebut, serta mencoba menghubungi bagian administrasi kembali hingga mendapatkan respon",
+      "Menerima dan mencatat seluruh keluhan keluarga pasien tersebut dan memberitahukan secara halus bahwa Anda akan segera melaporkan hal tersebut pada rapat divisi humas",
+      "Mencatat seluruh keluhan keluarga pasien tersebut dan mengarahkan keluarga pasien tersebut untuk melengkapi prosedur dan berkas sesuai aturan RS Anda bekerja",
+      "Mendengar dan mencatat seluruh keluhan dan tetap bekerja mengingat Anda memiliki banyak tugas penting yang harus dikerjakan"
+    ],
+    "kunci": [3,4,2,5,1],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Sebagai petugas fotokopi, Handi mendapati seorang pelanggan yang tidak memakai masker. Padahal, saat ini sedang ada pandemi covid 19. Handi sudah memasang sticker pengumuman sangat besar bahwa pelanggan akan dilayani apabila menggunakan masker. Yang seharusnya Handi lakukan adalah ....",
+    "opsi": [
+      "Memberitahukannya agar mengenakan masker dan tidak melayaninya sampai dengan memakai masker",
+      "Memintanya dengan halus membaca sticker pengumuman",
+      "Memintanya untuk tidak mendekat",
+      "Melayaninya meskipun tidak memakai masker karena pelanggan adalah raja",
+      "Tetap melayaninya dan menyampaikan agar lain kali menggunakan masker"
+    ],
+    "kunci": [4,5,1,3,2],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Anda menjabat menjadi manajer bidang pelayanan masyarakat, saat melakukan inspeksi di bidang pelayanan, Anda melihat salah satu staf Anda yang bersikap kurang sopan terhadap tamu. Maka untuk mengatasi permasalahan tersebut Anda akan ....",
+    "opsi": [
+      "Menghampiri dan melayani tamu dengan ramah, setelah itu menegur staf yang kurang sopan tersebut",
+      "Menegurnya di hadapan tamu tersebut",
+      "Menghampiri staf tersebut dan memintanya untuk meminta maaf pada tamu",
+      "Menyuruh staf lain untuk melayani tamu tersebut",
+      "Memberi hadiah kepada tamu sebagai bentuk permintaan maaf"
+    ],
+    "kunci": [5,1,2,3,4],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Anda bekerja sebagai seorang petugas keamanan KRL Jabodetabek. Seorang penumpang mendatangi Anda karena merasa barang bawaannya tertinggal dalam rangkaian kereta. Maka yang akan Anda lakukan menghadapi hal tersebut adalah ....",
+    "opsi": [
+      "Memintanya untuk duduk menunggu terlebih dahulu di stasiun sampai barangnya ditemukan",
+      "Meminta nomer HP dan akan menghubunginya apabila barangnya sudah ditemukan",
+      "Menyatakan bahwa pihak KRL Jabodetabek tidak bertanggung jawab atas barang bawaan yang tertinggal karena kelalaian penumpang",
+      "Menuliskan nama, nomer HP, dan gerbong kereta yang dinaiki, serta akan menghubunginya apabila barangnya sudah ditemukan",
+      "Menyatakan bahwa perbuatannya salah karena penumpang seharusnya bertanggung jawab dengan barang bawaannya"
+    ],
+    "kunci": [3,4,1,5,2],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Sebentar lagi jam kerja akan selesai, tetapi saat saya akan bersiap-siap untuk pulang, atasan saya meminta untuk mengantarkan produk sampel pada klien. Klien tersebut adalah klien yang sudah bertahun-tahun menjadi pelanggan perusahaan kami, maka yang akan saya lakukan adalah ....",
+    "opsi": [
+      "Mengiyakan tetapi mengantarkan produk tersebut keesokan hari saja",
+      "Dengan halus menolaknya karena jam kerja sebentar lagi akan selesai",
+      "Mengiyakan pada atasan tetapi menyuruh office boy untuk mengantarkan",
+      "Menyanggupi permintaan tersebut tetapi meminta dihitung sebagai lembur kerja",
+      "Segera mengantarkan produk tersebut sehingga dapat segera pulang"
+    ],
+    "kunci": [3,1,2,4,5],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Saat ini Anda bertugas untuk melayani antrean dalam pengambilan surat kepemilikan tanah yang sekarang ini menjadi salah satu program pemerintah. Tiba-tiba ada seorang ibu hamil yang menyerobot antrean dan meminta pelayanan dengan segera karena dia sudah kelelahan mengantre. Bagaimana sikap Anda?",
+    "opsi": [
+      "Memintanya untuk kembali ke antrean dan menjelaskan akan dilayani sesuai antrean yang ada",
+      "Memilih untuk meminta salah satu rekan kerja yang memberikan pelayanan karena tidak ingin ada keributan di antrean Anda",
+      "Meminta izin pada antrean yang dia lewati untuk melayaninya terlebih dahulu dengan melihat kondisinya",
+      "Meminta kepada ibu tersebut untuk meminta pendapat kepada atasan Anda jika diizinkan maka Anda akan segera melayaninya",
+      "Memintanya untuk kembali ke antrean sembari tetap melayani antrean yang ada di depan Anda"
+    ],
+    "kunci": [3,1,5,4,2],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Saat Anda lulus dari universitas bertepatan dengan adanya seleksi CPNS, sehingga Anda langsung mencoba kesempatan tersebut. Dan Anda lolos pada setiap seleksinya yang membuat Anda menjadi abdi negara. Sebagai seorang abdi negara yang melayani masyarakat Indonesia, Anda akan ....",
+    "opsi": [
+      "Mematuhi dan melaksanakan aturan serta prosedur pelayanan publik yang berlaku pada instansi yang tentunya sudah bertujuan untuk kepuasan masyarakat",
+      "Berusaha memahami kebutuhan masyarakat dalam setiap memberikan pelayanan",
+      "Memilih posisi yang secara langsung berperan dalam pelayanan publik agar lebih bermanfaat pada masyarakat",
+      "Memberikan pelayanan yang masih sesuai dengan peraturan instansi dengan cara memberi layanan yang dapat dimanfaatkan masyarakat",
+      "Memberikan pelayanan pada masyarakat sesuai tuntutan pekerjaan saya sebagai abdi negara"
+    ],
+    "kunci": [3,4,2,5,1],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Yashinta bekerja di bagian marketing salah satu perusahaan swasta yang cukup terkemuka. Manajer perusahaan menyarankan Yashinta untuk mempromosikan produk terbaru melalui perluasan jejaring secara digital di kalangan anak muda. Akan tetapi, hingga kini ia belum pernah mencobanya. Hal yang harus dilakukan Yashinta adalah ....",
+    "opsi": [
+      "Mempelajari cara kerja aplikasi tersebut agar target promosi produk bisa segera tercapai",
+      "Melakukan promosi dari mulut ke mulut mengenai produk baru perusahaannya kepada anak muda",
+      "Memperdalam kegunaan aplikasi jejaring digital itu untuk mengembangkan relasi pada berbagai kesempatan",
+      "Mencoba satu per satu fitur aplikasi dari yang mudah pengoperasiannya terlebih dahulu",
+      "Mendalami manfaat aplikasi tersebut agar efektivitas promosi meningkat dibandingkan sebelumnya"
+    ],
+    "kunci": [2,1,4,5,3],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Sebagian peserta didik mengalami kesulitan pada mata pelajaran mutimedia yang Anda ampu dikarenakan mereka tidak memiliki komputer untuk praktik di rumahnya. Hal ini membuat sebagian peserta didik memiliki nilai rendah. Apa yang akan Anda lakukan terhadap permasalahan tersebut?",
+    "opsi": [
+      "Meminta peserta didik yang tidak mempunyai komputer untuk belajar disewa rental komputer",
+      "Berdiam diri karena merasa bukan tanggung jawab saya",
+      "Meminta peserta didik yang mempunyai komputer untuk meminjami temannya",
+      "Meminta sekolah membuka kesempatan untuk menggunakan laboratorium komputer selesai jam sekolah agar peserta didik dapat belajar",
+      "Menawarkan diri untuk les tambahan gratis di rumah Anda menggunakan komputer yang ada di rumah"
+    ],
+    "kunci": [3,1,2,4,5],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Perusahaan Anda melakukan pengembangan IT di kantor supaya pekerjaan bisa selesai dengan baik dan akan mengadakan pelatihan di kantor tersebut, sikap Anda sebagai karyawan yang berbeda bidang dengan pekerjaan terkait IT itu, bagaimana sikap Anda menanggapi hal tersebut?",
+    "opsi": [
+      "Tidak memedulikan karena itu di luar bidang saya",
+      "Ikut pelatihan tersebut dan mencoba mempraktikkan di bidang saya",
+      "Kalau ada waktu mengikuti pelatihan tersebut sekadar mencari ilmu",
+      "Semangat dan antusias untuk ikut pelatihan tersebut",
+      "Biasa saja dan hanya memantau jalannya pelatihan dari luar"
+    ],
+    "kunci": [1,4,3,5,2],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Anda ditugaskan untuk menyelesaikan observasi ke suatu daerah yang satu tahun lalu Anda kunjungi untuk diadakan riset mengenai keberhasilan penerapan terasering pada persawahan dan perkebunan. Ketika Anda berkunjung untuk kedua kalinya, ternyata di perjalanan Anda lupa arah menuju lokasi daerah tersebut. Apa yang Anda lakukan?",
+    "opsi": [
+      "Menelepon rekan kantor untuk membantu mengingat kembali arah lokasi daerah tersebut",
+      "Sering berhenti untuk menanyakan lokasi daerah tersebut pada warga sekitar",
+      "Terus melaju sambil mengingat kembali arah daerah tersebut",
+      "Menggunakan piranti lunak navigasi pada smartphone Anda",
+      "Terus melaju dengan harapan segera sampai pada lokasi yang dituju"
+    ],
+    "kunci": [4,3,2,5,1],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Perkembangan teknologi saat ini sangat berpengaruh dalam banyak bidang kehidupan. Hal tersebut juga memengaruhi sistem yang ada di kantor tempat saya bekerja. Saat ini, kantor mengganti sistem pelaporan bulanan dengan sistem komputer. Sedangkan saya telah terbiasa melaporkan pekerjaan secara manual. Yang akan saya lakukan adalah ....",
+    "opsi": [
+      "Tetap melaporkan pekerjaan secara manual karena takut terjadi kesalahan",
+      "Meminta teman untuk melaporkan pekerjaan saya dengan sistem baru",
+      "Tidak melaporkan pekerjaan ke atasan dan baru melaporkannya jika sudah diminta secara manual",
+      "Mempelajari sistem baru demi kelancaran pekerjaan",
+      "Meminta atasan untuk mengizinkan saya melaporkan dengan sistem lama"
+    ],
+    "kunci": [2,4,1,5,3],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Pada era globalisasi saat ini, kebebasan membuat akun sosial media dan akun messenger memberikan dampak positif dan dampak negatif. Jika Anda bertugas sebagai pegawai yang ditugaskan mengawasi aktivitas grup media sosial atau admin Pengaduan Masyarakat suatu instansi daerah dan Anda menemukan anggota grup banyak terindikasi menggunakan akun palsu. Maka yang pertama kali akan Anda lakukan adalah ….",
+    "opsi": [
+      "Mem-banned akun tersebut secara langsung",
+      "Melakukan klarifikasi secara personal dengan akun tersebut",
+      "Menonaktifkan fitur kirim pesan bagi akun yang terindikasi tersebut",
+      "Menambahkan keterangan pada fitur informasi agar menggunakan ID yang jelas bagi peserta",
+      "Mengirimkan broadcast himbauan kepada anggota grup agar menggunakan ID yang jelas"
+    ],
+    "kunci": [1,2,3,5,4],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Anda merupakan guru kesenian di sekolah dasar. Anda menugaskan para siswa kelas lima untuk menggambar keagungan ideologi negara yaitu Pancasila. Namun ketika tugas mereka dikumpulkan, Anda melihat hasil gambar dari salah satu siswa yang menggambar Pancasila berdampingan dengan simbol palu arit. Setelah Anda panggil siswa tersebut menjelaskan jika orang tuanya mengajarkan bahwa ideologi negara tidak hanya gambar Garuda Pancasila tapi juga harus ditambahkan simbol palu arit. Sikap Anda ….",
+    "opsi": [
+      "Membuat berita tersebut menjadi viral supaya pihak berwenang tertarik menindaklanjutinya",
+      "Membicarakan hal tersebut dengan kepala sekolah untuk tindak lanjutnya",
+      "Menyayangkan pendidikan yang diberikan oleh orang tua siswa tersebut karena dapat menjadi salah paham",
+      "Mendatangi rumah siswa tersebut dan menghardik orang tuanya karena mengajarkan paham yang bertentangan dengan ideologi negara",
+      "Memberi pengertian pada siswa tersebut bahwa pengetahuannya salah dan menjelaskan ideologi negara hanya Pancasila tanpa simbol palu arit"
+    ],
+    "kunci": [2,5,1,4,3],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Suatu hari Anda diminta oleh pimpinan untuk bertugas di daerah adat. Untuk menyambut kedatangan Anda, ketua adat meminta Anda melakukan beberapa upacara ritual untuk kelancaran pekerjaan Anda dan bagian dari kebiasaan di sana, tetapi hal tersebut bertentangan dengan ajaran agama Anda. Sikap Anda ….",
+    "opsi": [
+      "Mengikuti sebagaian ritual adat agar diterima dengan baik oleh masyarakat di sana",
+      "Menjalankan upacara adat dengan senang hati untuk menghormati adat istiadat setempat",
+      "Menjelaskan bahwa kegiatan tersebut bertentangan dengan agama Anda tapi dapat ikut berpartisipasi dalam kegiatan yang tidak bertentangan",
+      "Menolaknya dan menanyakan pentingnya melakukan upacara tersebut bagi kesuksesan pekerjaan Anda",
+      "Menolak mengikuti upacara tersebut dan menanyakan hal lain terkait adat kebiasaan yang dianut agar lebih memahami adat setempat"
+    ],
+    "kunci": [2,3,5,1,4],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Beberapa mantan narapidana terorisme telah merasakan udara bebas setelah dipenjara dalam kurun waktu yang lama. Banyak di antara mereka yang menyatakan sumpah setia kepada NKRI setelah dinyatakan bebas. Anda merupakan tetangga salah satu mantan teroris yang telah bebas tersebut. Yang akan Anda lakukan mendengar berita tetangga tersebut akan kembali dibebaskan adalah ….",
+    "opsi": [
+      "Tetap waspada dengan tetangga tersebut karena bisa saja mengulangi kesalahan yang sama",
+      "Menerima kembali menjadi bagian dari masyarakat karena dia telah menjalani hukumannya",
+      "Menolak menerimanya menjadi bagian dari masyarakat di lingkungan tempat tinggal Anda",
+      "Menjadikannya bagian dari masyarakat dan berharap dia telah berubah",
+      "Berkoordinasi dengan ketua RT dan tokoh masyarakat setempat untuk menerima atau menolaknya"
+    ],
+    "kunci": [3,5,1,4,2],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Staf khusus Ketua Dewan Pengarah Badan Pembinaan Ideologi Pancasila menyatakan radikalisme menganggap kabenaran itu absolut. Radikalisme itu sudah sampai tahap lampu merah, sehingga kita perlu warning dan lakukan pencegahan. Radikalisme itu seolah-olah dirinya paling benar, dan yang lain salah. Di negara yang majemuk ini, tidak bisa seperti itu. Bahaya radikalisme itu adalah memanipulasi agama untuk kepentingan merebut kekuasaan sesaat. Sebagai calon ASN, bagaimana Anda menyikapi persoalan dari kutipan tersebut mengenai bahaya radikalisme yang berkembang di Indonesia saat ini?",
+    "opsi": [
+      "Seluruh komponen bangsa sepatutnya mencegah penyebaran paham radikal anti-Pancasila, sebab radikalisme sudah menyebar hampir ke berbagai sektor kehidupan kenegaraan",
+      "Sudah seharusnya anggota DPR, TNI, dan Polri serta lembaga strategis berkewajiban melakukan pencegahan radikalisme",
+      "Berpedoman teguh pada nilai-nilai Pancasila sebagai pedoman hidup dalam berwarga negara dan perlunya penegakan hukum yang jelas dengan Pancasila sebagai sumber dari segala hukum",
+      "Menghindari orang-orang yang diduga menganut paham radikal supaya sebagai ASN tidak terpengaruh",
+      "Membangun kehidupan bermasyarakat yang didasarkan pada sikap saling pengertian dan saling menghargai antara sesama yang mempunyai latar belakang yang berbeda"
+    ],
+    "kunci": [3,1,5,2,4],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Pada meja salah satu staf di kantor, Anda melihat diberi tulisan yang mencerminkan doa sesuai agamanya yang berbeda dengan keyakinan Anda. Tanggapan Anda adalah …",
+    "opsi": [
+      "Menyampaikan secara tidak langsung bahwa berdoa dengan Tuhan tidak perlu dituliskan, cukup melalui hati atau lisan",
+      "Menghargai yang dilakukan staf tersebut karena mungkin staf lain juga melakukan hal yang sama",
+      "Menghargai yang dilakukan staf tersebut karena merupakan haknya sebagai umat beragama seraya mengamininya",
+      "Menganggap bahwa staf tersebut tidak ikhlas berdoanya karena sampai ditulis di kertas",
+      "Membiarkan staf tersebut meski tidak terlalu nyaman dengan tulisannya karena kalau menegur berisiko dianggap tidak toleran"
+    ],
+    "kunci": [1,4,5,2,3],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Anda dikelompokkan dengan rekan kerja yang berbeda agama dengan Anda untuk menyelesaikan suatu proyek. Salah satu rekan tim kerja menolak karena tidak mau dikelompokkan dengan rekan kerja yang berlainan agama. Sikap Anda sebagai ketua tim kerja tersebut adalah ….",
+    "opsi": [
+      "Mengeluarkan anggota yang menentang hal tersebut dari tim kerja",
+      "Melaporkan sikap anggota tim yang tidak mau bekerja sama kepada pimpinan",
+      "Meminta pimpinan membagi tim kerja sesuai agama saja",
+      "Memahamkan anggota tim agar tidak mempermasalahkan agama dan fokus pada proyek",
+      "Tidak mempedulikan dan fokus pada proyek yang sedang dikerjakan"
+    ],
+    "kunci": [3,4,1,5,2],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Anda mendengar berita terjadi baku tembak antara kepolisian dengan kelompok bersenjata di daerah Indonesia bagian timur. Bagaimana Anda menyikapi berita tersebut?",
+    "opsi": [
+      "Menyayangkan peristiwa tersebut dikarenakan tidak ada kepercayaan pada pemerintah dan ideologi negara",
+      "Menghindari untuk berkunjung ke daerah tersebut serta daerah yang rawan terjadi konflik bersenjata",
+      "Turut berduka cita pada keluarga polisi tersebut karena telah gugur dalam tugasnya",
+      "Menyarankan pemerintah untuk memperkuat pertahanan dengan wajib militer pada masyarakat",
+      "Mengajak masyarakat melakukan demo pada pemerintah supaya segera menindak tegas kelompok bersenjata yang mengancam keamanan umum"
+    ],
+    "kunci": [5,1,4,2,3],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Anda merupakan guru seni di sebuah sekolah dasar. Ketika dalam pembelajaran berlatih menyanyi lagu Indonesia Raya, namun salah satu siswa Anda menolak untuk menyanyikannya. Bagaimana Anda menyikapnyi situasi tersebut?",
+    "opsi": [
+      "Segera memarahinya karena termasuk tindakan yang tidak patuh kepada guru",
+      "Bertanya alasan dan memberikan pemahaman kepada siswa tersebut",
+      "Menasihatinya supaya tidak berbuat seperti itu lagi",
+      "Memanggil orang tua siswa tersebut untuk menjelaskan perbuatan anaknya",
+      "Menjelaskan bahwa tindakannya termasuk contoh perilaku tidak cinta tanah air"
+    ],
+    "kunci": [2,5,3,1,4],
     "pembahasan": ""
   },
   {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
-    "pembahasan": ""
-  },
-  {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
-    "pembahasan": ""
-  },
-  {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
-    "pembahasan": ""
-  },
-  {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
-    "pembahasan": ""
-  },
-  {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
-    "pembahasan": ""
-  },
-  {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
-    "pembahasan": ""
-  },
-  {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
-    "pembahasan": ""
-  },
-  {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
-    "pembahasan": ""
-  },
-  {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
-    "pembahasan": ""
-  },
-  {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
-    "pembahasan": ""
-  },
-  {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
-    "pembahasan": ""
-  },
-  {
-    "materi": "",
-    "tipe": "",
-    "soal": "",
-    "opsi": [],
-    "kunci": "",
+    "materi": "tkp",
+    "tipe": "teks",
+    "soal": "Anda mendapatkan undangan kajian melalui pesan whatsapp, tapi Anda tidak mengenal pengirim undangan serta materi kajian yang dijabarkan dalam undangan mengandung kata-kata provokatif yang mengkritik pemerintahan serta ideologi negara. Bagaimana sebaiknya Anda menyikapi undangan tersebut?",
+    "opsi": [
+      "Membagikan undangan tersebut untuk memperingatkan teman-teman supaya tidak menghadiri acara tersebut karena bersifat radikal",
+      "Memilih memblokir nomor pengirim undangan karena takut jika dikira pengikut kelompok radikal",
+      "Melaporkan hal tersebut kepada pihak berwajib disertai bukti pesan undangan supaya diselidiki lebih lanjut",
+      "Menghadiri undangan tersebut karena telah diundang dan ingin melihat lebih jelas materi kajiannya",
+      "Tidak menghiraukannya karena tidak mengenal pengirim undangan dan materi kajian yang meragukan"
+    ],
+    "kunci": [3,2,5,1,4],
     "pembahasan": ""
   }
 ]
